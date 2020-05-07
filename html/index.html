@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta content="telephone=no, email=no" name="format-detection">
+	<!-- 启用360浏览器的极速模式(webkit) -->
+	<meta name="renderer" content="webkit">
+	<!-- 避免IE使用兼容模式 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+	<meta name="HandheldFriendly" content="true">
+	<!-- 微软的老式浏览器 -->
+	<meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+	<meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+	<title>语音房升级</title>
+	<link rel="stylesheet" href="js/swiper/swiper.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		var w = window,
+			d = document.documentElement,
+			c;
+		function sesetfontsize() {
+			var deviceWidth = d.clientWidth;
+			deviceWidth > 750 && (deviceWidth = 750);
+			var a = (deviceWidth / 7.5).toFixed(2);
+			d.style.fontSize = a + "px";
+			var b = parseFloat(w.getComputedStyle(d, null).fontSize);
+			if (a != b) {
+				a = a * a / b;
+				d.style.fontSize = a + "px";
+			}
+		}
+		sesetfontsize();
+		w.addEventListener("resize", function () {
+			clearTimeout(c),
+				c = setTimeout(sesetfontsize, 300)
+		}, !1)
+
+	</script>
+</head>
+
+<body>
+	<div class="page">
+		<div class="head">
+			<img src="images/head_01.jpg" alt="">
+			<img src="images/head_02.jpg" alt="">
+			<img src="images/head_03.jpg" alt="">
+			<img src="images/head_04.jpg" alt="">
+			<a href="pop.html" class="rule-btn">活动规则</a>
+			<div class="actime">活动时间：xx.xx-xx.xx</div>
+		</div>
+		<div class="pub-box box0">
+			<div class="pub-tit"><img src="images/title1.png" alt=""></div>
+			<div class="pub-cont">
+				<div class="swiperbox">
+					<div class="swiper-container" id="swiper1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="http://t7.baidu.com/it/u=3616242789,1098670747&fm=79&app=86&f=JPEG?w=900&h=1350"
+									alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="http://t7.baidu.com/it/u=3225540498,2642373837&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1589354677&t=5711ee002d78da3a8a1a6b088f61d55c"
+									alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="http://t7.baidu.com/it/u=3616242789,1098670747&fm=79&app=86&f=JPEG?w=900&h=1350"
+									alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="http://t7.baidu.com/it/u=3225540498,2642373837&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1589354677&t=5711ee002d78da3a8a1a6b088f61d55c"
+									alt="">
+							</div>
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<a href="javascript:;" class="btn">了解更多</a>
+			</div>
+		</div>
+		<div class="pub-box box1">
+			<div class="pub-tit"><img src="images/title2.png" alt=""></div>
+			<div class="pub-cont">
+				<p class="pub-text">加入任意主持守护团，获得专属勋章，专属好礼</p>
+				<div class="gift mt40 tac">
+					<img src="images/gift.png" alt="">
+				</div>
+				<a href="javascript:;" class="btn">去加入</a>
+				<!-- <a href="javascript:;" class="btn get">去领取</a>
+				<a href="javascript:;" class="btn hasget">已领取</a> -->
+			</div>
+		</div>
+
+		<div class="pub-box box2">
+			<div class="pub-tit"><img src="images/title3.png" alt=""></div>
+			<div class="pub-cont">
+				<div class="my-ym">当前拥有守护之羽<img src="images/ym.png" alt="">x90</div>
+				<p class="pub-text mt40">收集守护之羽，换取海量奖励</p>
+				<ul class="change-list mt30">
+					<li>
+						<div class="box">
+							<img src="images/cgift1.png" alt="">
+							<p class="name">大量金币</p>
+						</div>
+						<a href="javascript:;" class="btn"></a>
+						<p class="ins">获得<img src="images/ym.png" alt="">X10</p>
+					</li>
+					<li>
+						<div class="box">
+							<img src="images/cgift2.png" alt="">
+							<p class="name">抱抱*1</p>
+						</div>
+						<a href="javascript:;" class="btn"></a>
+						<p class="ins">获得<img src="images/ym.png" alt="">X30</p>
+					</li>
+					<li>
+						<div class="box">
+							<img src="images/cgift3.png" alt="">
+							<p class="name">守护天使<br>头像框（5天）</p>
+						</div>
+						<a href="javascript:;" class="btn"></a>
+						<p class="ins">获得<img src="images/ym.png" alt="">X100</p>
+					</li>
+				</ul>
+				<p class="pub-text mt40">完成每日任务，收集守护之羽</p>
+				<ul class="task-list cf">
+					<li>
+						<i class="ico"><img src="images/ico1.png" alt=""></i>
+						<div class="cont">
+							<p class="tit">语音房在线时间30分钟</p>
+							<p class="ins">获得<img src="images/ym.png" alt="">X3</p>
+						</div>
+						<a href="javascript:;" class="btn go">去完成</a>
+					</li>
+					<li>
+						<i class="ico"><img src="images/ico2.png" alt=""></i>
+						<div class="cont">
+							<p class="tit">语音房上麦互动30分钟</p>
+							<p class="ins">获得<img src="images/ym.png" alt="">X3</p>
+						</div>
+						<a href="javascript:;" class="btn get">领取</a>
+					</li>
+					<li>
+						<i class="ico"><img src="images/ico3.png" alt=""></i>
+						<div class="cont">
+							<p class="tit">语音房内送出1个“1级粉丝团礼物</p>
+							<p class="ins">获得<img src="images/ym.png" alt="">X4</p>
+						</div>
+						<a href="javascript:;" class="btn fish">已完成</a>
+					</li>
+				</ul>
+				<p class="pub-text pub-text1 mt40">完成成就任务，获取大量守护之羽</p>
+				<ul class="task-list cf">
+					<li>
+						<i class="ico"><img src="images/grade-ico1.png" alt=""></i>
+						<div class="cont">
+							<p class="tit">守护等级达到2级</p>
+							<p class="ins">获得<img src="images/ym.png" alt="">X10</p>
+						</div>
+						<a href="javascript:;" class="btn go">去完成</a>
+					</li>
+					<li>
+						<i class="ico"><img src="images/grade-ico2.png" alt=""></i>
+						<div class="cont">
+							<p class="tit">守护等级达到3级</p>
+							<p class="ins">获得<img src="images/ym.png" alt="">X20</p>
+						</div>
+						<a href="javascript:;" class="btn get">领取</a>
+					</li>
+					<li>
+						<i class="ico"><img src="images/grade-ico3.png" alt=""></i>
+						<div class="cont">
+							<p class="tit">守护等级达到4级</p>
+							<p class="ins">获得<img src="images/ym.png" alt="">X30</p>
+						</div>
+						<a href="javascript:;" class="btn fish">已完成</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="foot">本活动最终解释权归官方所有<span class="ico"><img src="images/ico4.png" alt=""></span></div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper/swiper.min.js"></script>
+	<script>
+		var swiper1 = new Swiper('#swiper1', {
+			pagination: {
+				el: '.swiper-pagination',
+			},
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+		});
+	</script>
+</body>
+
+</html>
