@@ -1,0 +1,163 @@
+
+@charset "utf-8";
+/***********************通用部分开始**********************/
+*{margin:0px;padding:0px;}
+a{text-decoration:none}
+em,i,li{list-style:none;font-style:normal;}
+a{text-decoration:none; color: #d4bb94;-webkit-tap-highlight-color:#d4bb94;}
+a img{border:none;}
+img{vertical-align:top;max-width:100%;pointer-events: none; }
+.cf{*zoom:1}
+.cf:after{content:'';display:block;height:0;clear:both}
+body{font-weight:normal;line-height:0.26rem;color:#000;font-size:0.24rem;font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica,sans-serif;background: #ffffff;max-width:7.5rem;margin:0 auto;-webkit-overflow-scrolling:touch}
+a{blr:expression(this.onFocus=this.blur())}
+a{-webkit-tap-highlight-color:rgba(0,0,0,0);color:#000; }
+a:active{color:#333;}
+ol,p,dl,li{margin:0;pading:0;list-style:none;}
+h1,h2,h3,h4,h5{font-size:14px;margin:0;padding:0;font-weight:normal;}
+button, input, optgroup, select, textarea{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button, select{text-transform:none;}
+button, html input[type="button"], input[type="reset"], input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button[disabled], html input[disabled]{cursor:default;}
+button::-moz-focus-inner, input::-moz-focus-inner{border:0;padding:0;}
+input{line-height:normal;}
+input[type="checkbox"], input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{height:auto;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}
+legend{border:0;padding:0;}
+textarea{overflow:auto;resize:vertical;}
+optgroup{font-weight:bold;}
+input::-moz-placeholder, textarea::-moz-placeholder{color:#cccccc;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder{color:#cccccc;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color:#cccccc;}
+input:focus{outline:none}
+.fl{float:left}
+.fr{float:right}
+.hidden{display:none}
+.tac{text-align:center !important;}
+.tal{text-align:left !important;}
+.tar{text-align:right !important;}
+.mt10{margin-top: 0.1rem !important}
+.mt20{margin-top: 0.2rem !important}
+.mt25{margin-top: 0.25rem !important}
+.mt30{margin-top: 0.3rem !important}
+.mt40{margin-top: 0.4rem !important}
+.mt50{margin-top: 0.5rem !important}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+.transition{transition:all 0.3s cubic-bezier(.17,.67,.83,.67);-webkit-transition:all 0.3s cubic-bezier(.17,.67,.83,.67);}
+.btn{width: 2.18rem;height: 0.64rem; display: inline-block;overflow: hidden;line-height: 999px;background-size:100%;background-repeat: no-repeat;}
+.page{position: relative;padding-bottom: 1rem;}
+
+/*公用头部start*/
+.head{height: 1.15rem;background: #000000;
+    .logo{width:3.1rem;height: 1.15rem;float: left;background-image: url(../images/logo.png)}
+    .tel{width: 2.9rem;height: 0.5rem;float: right; background-image: url(../images/tel.png);margin: 0.3rem 0.2rem 0 0;}
+}
+/*导航*/
+.menu{background: #fdd000; width: 100%;height: 1.12rem;padding: 0.1rem 0.35rem 0.28rem;display: -webkit-box;
+    li{width: 1%;height: 100%; -webkit-box-flex: 1;text-align: center;position: relative;
+        a{width: 100%; height: 0.7rem;line-height: 0.7rem; display: block;font-size: 0.32rem;}
+        &.on{
+            &:after{background: #000000; width: 80%;height: 0.05rem;display: block;position: absolute; bottom:0;left: 50%; -webkit-transform: translate(-50%,0); transform: translate(-50%,0);content: "";}
+            a{font-weight: bold;}
+        }
+    }
+}
+/*footer*/
+.footer{background: #414141;color: #ffffff;font-weight: 100;font-size: 0.18rem;line-height: 0.28rem; text-align: center; padding: 0.2rem 0;
+    span{margin: 0 0.07rem;}
+}
+/*固定底部*/
+.fixed-menu{background: #ee0036;color: #fff;padding: 0.14rem 0; width: 100%;height: 1.06rem;max-width: 7.5rem;position: fixed;left: 0;right: 0;bottom: 0;margin: 0 auto;z-index: 80; display: -webkit-box;
+    li{width: 1%;height: 100%; -webkit-box-flex: 1;text-align: center;position: relative;border-right: 0.01rem dashed #fff;
+        &:nth-last-child(1){border-right: 0}
+        a{display: block;line-height:0.78rem;color: #fff;font-size: 0.3rem;font-weight: bold;
+            img{height: 0.5rem;display: inline-block;vertical-align: middle}
+        }
+    }
+}
+/*通用按钮*/
+.pub-btn{width: 2.93rem;height: 1.1rem;text-align: center;font-weight: bold;line-height: 0.85rem; font-size: 0.32rem;margin: 0 auto;display: block;background: url(../images/btn1.png) no-repeat;background-size: 100% 100%; }
+.pub-tit{text-align: center;line-height: 0.7rem;font-size: 0.56rem;font-weight: bold;}
+.pub-sutit{text-align: center;font-size: 0.26rem;color: #a4a4a4;line-height: 0.4rem;}
+.pub-ins{height: 0.8rem;line-height: 0.8rem;text-align: center;position: relative;
+    &::after{width: 80%;height: 0.01rem;background: #000;position: absolute; top: 50%;left: 50%;-webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);content: ''}
+    span{display: inline-block;vertical-align: top;font-size: 0.34rem;padding: 0 0.15rem; background: #fff;position: relative;z-index: 2;}
+}
+/***********************通用部分结束**********************/
+
+/*************************banner*********************/
+.banner{background: #fdd000;height: 3.12rem;position: relative;
+
+}
+/********************通用提交课程表单开始******************/
+.get-class{background: #fabe00;padding: 0.35rem 0;
+    .tit{text-align: center;line-height: 0.9rem;font-size: 0.56rem;font-weight: bold;}
+    .from{width: 100%;
+        li{width: 100%;line-height: 0.58rem;margin-top: 0.15rem; display: -webkit-box;
+            .from-th{width: 2.2rem;display: inline-block;vertical-align: top;text-align: right;padding-right: 0.2rem;font-weight: bold;font-size: 0.32rem;}
+            .from-input{width: 1%; -webkit-box-flex: 1;
+                input{width: 4.28rem;height: 0.58rem;border: 0;background: #fff;outline: none;padding: 0 0.15rem;}
+            }
+            .pub-btn{margin-top: 0.1rem;}
+        }
+    }
+}
+/*************************在线预约开始*********************/
+.online{background: #f4f4f4; padding: 0.2rem 0 0.35rem;
+    @extend .get-class;
+    .tit{font-size: 0.48rem;}
+    .from{
+        li{
+            .from-th{color: #686868}
+            .from-input{
+                input{background: #dcdcdc}
+            }
+        }
+    }
+}
+/*************************通用问题开始*********************/
+.question{background: #f6f6f6;padding: 0.3rem 0 0.45rem;font-weight: bold;
+    .tit{line-height: 1.1rem;font-size: 0.48rem;text-align: center;}
+    .q-list{width: 100%;padding: 0 0.25rem 0.15rem;text-align: center; display: -webkit-box;
+        li{width: 1%; -webkit-box-flex: 1;
+            a{background-color: rgb(255, 255, 255);box-shadow: 0 0.04rem 0.04rem rgba(5, 7, 31, 0.12);width: 1.5rem;height: 2.04rem;padding: 0.2rem 0 0; display: inline-block;
+                img{width: 0.97rem;}
+                p{line-height: 0.32rem;color: #9c9c9c;font-size: 0.26rem;padding-top: 0.1rem;}
+            }
+        }
+    }
+}
+/*************************开班类型开始*********************/
+.class-sort{background: #fff;padding: 0.4rem 0 0.45rem;
+    .sort-list{width: 100%;padding: 0 0.3rem;
+        li{width: 50%;float: left;margin: 0 0 0.2rem; text-align: center;
+            img{width: 3.25rem;}
+        }
+    }
+}
+/*************************校园环境开始*********************/
+.environment{background: #f6f6f6;padding: 0.4rem 0 0.45rem;
+    .pub-ins span{background: #f6f6f6}
+}
+/*************************就业喜板*********************/
+.employment{background: #fff;padding: 0.4rem 0 0.45rem;
+}
+/*************************师资团队开始*********************/
+.teams{background: #f6f6f6;padding: 0.4rem 0 0.45rem;
+    .pub-ins span{background: #f6f6f6}
+}
+/*************************特色课程开始*********************/
+.curriculum{background: #fff;padding: 0.4rem 0 0.45rem;
+
+}
+/*************************最新开课开始*********************/
+.news-zx{background: #fff;height: 2.75rem; padding: 1.3rem 0 0.45rem;
+
+}
+
+
+
