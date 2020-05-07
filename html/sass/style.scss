@@ -44,13 +44,15 @@ input:focus{outline:none}
 .mt20{margin-top: 0.2rem !important}
 .mt25{margin-top: 0.25rem !important}
 .mt30{margin-top: 0.3rem !important}
+.mt35{margin-top: 0.35rem !important}
 .mt40{margin-top: 0.4rem !important}
 .mt50{margin-top: 0.5rem !important}
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
 .transition{transition:all 0.3s cubic-bezier(.17,.67,.83,.67);-webkit-transition:all 0.3s cubic-bezier(.17,.67,.83,.67);}
 .btn{width: 2.18rem;height: 0.64rem; display: inline-block;overflow: hidden;line-height: 999px;background-size:100%;background-repeat: no-repeat;}
 .page{position: relative;padding-bottom: 1rem;}
-
+.white{background: #fff !important;}
+.gray{background: #f6f6f6 !important;}
 /*公用头部start*/
 .head{height: 1.15rem;background: #000000;
     .logo{width:3.1rem;height: 1.15rem;float: left;background-image: url(../images/logo.png)}
@@ -87,11 +89,19 @@ input:focus{outline:none}
     &::after{width: 80%;height: 0.01rem;background: #000;position: absolute; top: 50%;left: 50%;-webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);content: ''}
     span{display: inline-block;vertical-align: top;font-size: 0.34rem;padding: 0 0.15rem; background: #fff;position: relative;z-index: 2;}
 }
+.pub-img{padding: 0.2rem 0.4rem;}
 /***********************通用部分结束**********************/
 
 /*************************banner*********************/
 .banner{background: #fdd000;height: 3.12rem;position: relative;
-
+    .swiper-container{ -webkit-transform: scale(1.15); transform: scale(1.15); width: 6.74rem;
+        .swiper-slide{width: 8.09rem;box-shadow: 0 0.15rem 0.15rem rgba(5,7,31,.23);
+            // img{width:  8.09re;height: 4.7rem;}
+        }
+    }
+    .swiper-pagination{bottom: 0.4rem;}
+    .swiper-pagination-bullet{width: 0.32rem;height: 0.05rem;background: #bfbfbf;border-radius: 0;opacity: 1;}
+    .swiper-pagination-bullet-active{background: #fdd000;}
 }
 /********************通用提交课程表单开始******************/
 .get-class{background: #fabe00;padding: 0.35rem 0;
@@ -120,7 +130,7 @@ input:focus{outline:none}
     }
 }
 /*************************通用问题开始*********************/
-.question{background: #f6f6f6;padding: 0.3rem 0 0.45rem;font-weight: bold;
+.question{padding: 0.3rem 0 0.45rem;font-weight: bold;
     .tit{line-height: 1.1rem;font-size: 0.48rem;text-align: center;}
     .q-list{width: 100%;padding: 0 0.25rem 0.15rem;text-align: center; display: -webkit-box;
         li{width: 1%; -webkit-box-flex: 1;
@@ -132,32 +142,63 @@ input:focus{outline:none}
     }
 }
 /*************************开班类型开始*********************/
-.class-sort{background: #fff;padding: 0.4rem 0 0.45rem;
-    .sort-list{width: 100%;padding: 0 0.3rem;
-        li{width: 50%;float: left;margin: 0 0 0.2rem; text-align: center;
-            img{width: 3.25rem;}
-        }
+.class-sort{padding: 0.4rem 0 0.45rem;}
+.sort-list{width: 100%;padding: 0 0.3rem;
+    li{width: 50%;float: left;margin: 0 0 0.2rem; text-align: center;
+        img{width: 3.25rem;box-shadow: 0 0.05rem 0.05rem rgba(5, 7, 31, 0.12);}
     }
 }
 /*************************校园环境开始*********************/
-.environment{background: #f6f6f6;padding: 0.4rem 0 0.45rem;
+.environment{padding: 0.4rem 0 0.45rem;
     .pub-ins span{background: #f6f6f6}
 }
 /*************************就业喜板*********************/
-.employment{background: #fff;padding: 0.4rem 0 0.45rem;
+.employment{padding: 0.4rem 0 0.45rem;
 }
 /*************************师资团队开始*********************/
-.teams{background: #f6f6f6;padding: 0.4rem 0 0.45rem;
+.teams{padding: 0.4rem 0 0.45rem;
     .pub-ins span{background: #f6f6f6}
 }
 /*************************特色课程开始*********************/
-.curriculum{background: #fff;padding: 0.4rem 0 0.45rem;
+.curriculum{padding: 0.4rem 0 0.45rem;
 
 }
 /*************************最新开课开始*********************/
-.news-zx{background: #fff;height: 2.75rem; padding: 1.3rem 0 0.45rem;
-
+.news-zx{height: 2.75rem; padding: 1.3rem 0 0.45rem;
+    .box{width:6.74rem;height: 1.01rem;background: url(../images/news.png) no-repeat;background-size: 100% 100%;margin: 0 auto;;}
 }
 
+/************************************UI课程详情页*******************************************/
+.ui-page{
+    .get-class{background-image: linear-gradient(#b712c1, #8b4cd2);color: #fff;}
+    input{color: #333;}
+    .pub-tit{line-height: 0.65rem;font-size: 0.5rem;}
+}
+/*****课程大纲*****/
+.outline{padding: 0.45rem 0 0.45rem;
+    .pub-btn{font-size: 0.3rem;}
+    .gallery-thumbs{margin: 0.35rem 0.38rem 0;
+        .swiper-slide{background: #efefef;height: 1.47rem;position: relative;
+            span{width: 100%;display:block;text-align: center; line-height: 0.38rem;font-size: 0.32rem; position: absolute;top: 50%;left: 50%; -webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+        }
+        .swiper-slide-thumb-active{background-image: linear-gradient(#c03fcd, #a742e3);color: #fff;}
+    }
+    .gallery-top{width: 6.97rem;height: 5.59rem;margin: 0.22rem auto 0;
+        .swiper-slide{width: 100%;height: 100%;padding: 0.08rem 0.12rem 0.16rem; position: relative;
+            img{box-shadow: 0 0.04rem 0.12rem rgba(5,7,31,.12) ;}
+            a{position: absolute;left: 0;bottom: 0;}
+        }
+    }
+}
+/*****内页banner***/
+.inbanner{position: relative;
+    .btn{width: 2.12rem;height: 0.55rem;line-height: 0.5rem;text-align: center;font-size: 0.26rem;font-weight: bold;border-radius: 0.05rem; background: #ffe900;box-shadow: 0 -0.05rem 0 #e7b700 inset;display: block;position: absolute;left: 50%;bottom: 0.55rem;margin-left: -1.06rem;}
+}
+/*****why*********/
+.why-study{padding: 0.5rem 0 0.45rem;}
+/*****高薪难求*****/
+.test-money{padding: 0.5rem 0 0.45rem;
+    .pub-btn{font-size: 0.26rem;}
+}
 
 

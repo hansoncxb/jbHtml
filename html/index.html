@@ -60,11 +60,19 @@
 		</nav>
 		<!--banner-->
 		<div class="banner">
-			
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="pic/banner.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="pic/banner.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="pic/banner.jpg" alt=""></div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
 		</div>
 		<!--最新开课-->
-		<div class="news-zx">
-
+		<div class="news-zx white">
+			<div class="box"></div>
 		</div>
 		<!--免费课程-->
 		<div class="online">
@@ -87,35 +95,35 @@
 			</ul>
 		</div>
 		<!--特色课程-->
-		<div class="curriculum">
+		<div class="curriculum white">
 			<p class="pub-tit">特色课程</p>
 			<p class="pub-sutit">Curriculum Structure</p>
 			<p class="pub-ins"><span>金榜11大经典特色课程</span></p>
 			<a href="javascript:;" class="pub-btn mt30">咨询课程详情</a>
 		</div>
 		<!--就业喜榜-->
-		<div class="teams">
+		<div class="teams gray">
 			<p class="pub-tit">师资团队</p>
 			<p class="pub-sutit">Faculty teams</p>
 			<p class="pub-ins"><span>金榜一线设计师全程面授</span></p>
 			<a href="javascript:;" class="pub-btn mt30">与名师沟通</a>
 		</div>
 		<!--就业喜榜-->
-		<div class="employment">
+		<div class="employment white">
 			<p class="pub-tit">就业喜榜</p>
 			<p class="pub-sutit">Employment</p>
 			<p class="pub-ins"><span>金榜学员就业薪资参考</span></p>
 			<a href="javascript:;" class="pub-btn mt30">参加学习就业</a>
 		</div>
 		<!--校园环境-->
-		<div class="environment">
+		<div class="environment gray">
 			<p class="pub-tit">校园坏境</p>
 			<p class="pub-sutit">Campus Environment</p>
 			<p class="pub-ins"><span>金榜1500坪教学基地展示</span></p>
 			<a href="javascript:;" class="pub-btn mt30">预约实地参观</a>
 		</div>
 		<!--开班类型-->
-		<div class="class-sort">
+		<div class="class-sort white">
 			<p class="pub-tit">开班类型</p>
 			<p class="pub-sutit">Class Opening Type</p>
 			<p class="pub-ins"><span>灵活多样班型 满足不同人需求</span></p>
@@ -129,7 +137,7 @@
 		</div>
 
 		<!--疑难问题-->
-		<div class="question">
+		<div class="question gray">
 			<p class="tit">还有疑虑？我们帮你解答</p>
 			<ul class="q-list">
 				<li><a href="javascript:;"><img src="images/q-ico1.png" alt="">
@@ -181,7 +189,20 @@
 	<script src="lib/jquery.min.js"></script>
 	<script src="lib/swiper/swiper.min.js"></script>
 	<script>
-
+		//banner
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'cube',
+			grabCursor: true,
+			cubeEffect: {
+				shadow: false,
+				slideShadows: false,
+				shadowOffset: 20,
+				shadowScale: 0.94,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+			},
+		});
 	</script>
 </body>
 
