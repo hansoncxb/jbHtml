@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta content="email=no" name="format-detection">
+	<!-- 启用360浏览器的极速模式(webkit) -->
+	<meta name="renderer" content="webkit">
+	<!-- 避免IE使用兼容模式 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+	<meta name="HandheldFriendly" content="true">
+	<!-- 微软的老式浏览器 -->
+	<meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+	<meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+	<title></title>
+	<link rel="stylesheet" href="lib/swiper/swiper.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		var w = window,
+			d = document.documentElement,
+			c;
+		function sesetfontsize() {
+			var deviceWidth = d.clientWidth;
+			deviceWidth > 750 && (deviceWidth = 750);
+			var a = (deviceWidth / 7.5).toFixed(2);
+			d.style.fontSize = a + "px";
+			var b = parseFloat(w.getComputedStyle(d, null).fontSize);
+			if (a != b) {
+				a = a * a / b;
+				d.style.fontSize = a + "px";
+			}
+		}
+		sesetfontsize();
+		w.addEventListener("resize", function () {
+			clearTimeout(c),
+				c = setTimeout(sesetfontsize, 300)
+		}, !1)
+
+	</script>
+</head>
+
+<body>
+	<div class="page ui-page">
+		<!--公用头部-->
+		<header class="head">
+			<a href="index.html" class="btn logo">金榜设计教育</a>
+			<a href="javascript:;" class="btn tel">0592-5822788</a>
+		</header>
+		<!--公用导航-->
+		<nav class="menu">
+			<li class="on"><a href="">首页</a></li>
+			<li><a href="">课程</a></li>
+			<li><a href="">师资</a></li>
+			<li><a href="">作品</a></li>
+			<li><a href="">就业</a></li>
+		</nav>
+		<!--banner-->
+		<div class="inbanner">
+			<img src="images/u-baner.jpg" alt="">
+			<a href="JavaScript:;" class="btn">预约试听</a>
+		</div>
+		<!--why-->
+		<div class="why-study white">
+			<p class="pub-tit">为何那么多人学</p>
+			<ul class="sort-list mt35 cf">
+				<li><a href=""><img src="images/u-why-01.png" alt=""></a></li>
+				<li><a href=""><img src="images/u-why-02.png" alt=""></a></li>
+				<li><a href=""><img src="images/u-why-03.png" alt=""></a></li>
+				<li><a href=""><img src="images/u-why-04.png" alt=""></a></li>
+			</ul>
+			<a href="javascript:;" class="pub-btn mt30">我适合学UI吗</a>
+		</div>
+		<!--高薪难求-->
+		<div class="test-money gray">
+			<p class="pub-tit">UI设计师一才高薪难求</p>
+			<p class="pub-img"><img src="images/u-detail-01.png" alt=""></p>
+			<a href="javascript:;" class="pub-btn mt30">测一测你能拿多少钱</a>
+		</div>
+		<!--特色课程-->
+		<div class="curriculum white">
+			<p class="pub-tit">掌握核心设计技能<br>“钱”途无量</p>
+		</div>
+		<!--课程大纲-->
+		<div class="outline gray">
+			<p class="pub-tit">2020年全新升级UID课程</p>
+			<div class="swiper-container gallery-thumbs swiper-no-swiping">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<span>软件<br>基础</span>
+					</div>
+					<div class="swiper-slide">
+						<span>设计<br>技法</span>
+					</div>
+					<div class="swiper-slide">
+						<span>网站<br>实战</span>
+					</div>
+					<div class="swiper-slide">
+						<span>电商<br>实战</span>
+					</div>
+					<div class="swiper-slide">
+						<span>平面<br>实战</span>
+					</div>
+					<div class="swiper-slide">
+						<span>APP<br>实战</span>
+					</div>
+
+				</div>
+			</div>
+			<div class="swiper-container gallery-top ">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="JavaScript:;">更多课程</a>
+						<img src="images/tab-pic-01.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<a href="JavaScript:;">更多课程</a>
+						<img src="images/tab-pic-01.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<a href="JavaScript:;">更多课程</a>
+						<img src="images/tab-pic-01.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<a href="JavaScript:;">更多课程</a>
+						<img src="images/tab-pic-01.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<a href="JavaScript:;">更多课程</a>
+						<img src="images/tab-pic-01.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<a href="JavaScript:;">更多课程</a>
+						<img src="images/tab-pic-01.jpg" alt="">
+					</div>
+				</div>
+			</div>
+
+			<a href="javascript:;" class="pub-btn mt30">了解完整课程大纲</a>
+		</div>
+		<!--疑难问题-->
+		<div class="question white">
+			<p class="tit">还有疑虑？我们帮你解答</p>
+			<ul class="q-list">
+				<li><a href="javascript:;"><img src="images/q-ico1.png" alt="">
+						<p>老师<br>怎么样?</p>
+					</a></li>
+				<li><a href="javascript:;"><img src="images/q-ico2.png" alt="">
+						<p>就业有没有<br>保障?</p>
+					</a></li>
+				<li><a href="javascript:;"><img src="images/q-ico3.png" alt="">
+						<p>能不能<br>学得会</p>
+					</a></li>
+				<li><a href="javascript:;"><img src="images/q-ico4.png" alt="">
+						<p>学费<br>多少钱？</p>
+					</a></li>
+			</ul>
+			<a href="javascript:;" class="pub-btn mt30">咨询更多</a>
+		</div>
+		<!--免费课程-->
+		<div class="get-class">
+			<p class="tit">在线申请免费试学</p>
+			<ul class="from">
+				<li>
+					<span class="from-th">姓名：</span>
+					<div class="from-input"><input type="text"></div>
+				</li>
+				<li>
+					<span class="from-th">电话：</span>
+					<div class="from-input"><input type="text"></div>
+				</li>
+				<li>
+					<span class="from-th">&nbsp;</span>
+					<div class="from-input">
+						<a href="javascript:;" class="pub-btn fl">提交申请</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--公用底部-->
+		<footer class="footer"><span>Copyright 2013 - 2020</span><span>厦门金榜设计职业培训学校.</span><span>All rights
+				reserved.</span><br>  
+			<span>闽ICP备14003808号-1</span><span>全国统一热线：0592-5822788</span></footer>
+		<!--固定底部-->
+		<ul class="fixed-menu">
+			<li><a href="javascript:;"><img src="images/fixed-ico1.png" alt="">我要试学</a></li>
+			<li><a href="javascript:;"><img src="images/fixed-ico2.png" alt="">职业测试</a></li>
+			<li><a href="javascript:;"><img src="images/fixed-ico3.png" alt="">在线咨询</a></li>
+		</ul>
+	</div>
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/swiper/swiper.min.js"></script>
+	<script>
+		var galleryThumbs = new Swiper('.gallery-thumbs', {
+			spaceBetween: 5,
+			slidesPerView: 6,
+			freeMode: true,
+			watchSlidesVisibility: true,
+			watchSlidesProgress: true,
+		});
+		var galleryTop = new Swiper('.gallery-top', {
+			spaceBetween: 10,
+			thumbs: {
+				swiper: galleryThumbs
+			},
+			autoplay: {
+				delay: 5000,
+				stopOnLastSlide: false,
+				disableOnInteraction: false,
+			},
+		});
+		$(".gallery-thumbs .swiper-slide").on("click",function(){
+			var _index = $(this).index();
+			galleryTop.slideTo(_index, 500, true);
+		});
+	</script>
+</body>
+
+</html>
