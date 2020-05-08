@@ -74,7 +74,7 @@ input:focus{outline:none}
 }
 /*固定底部*/
 .fixed-menu{background: #ee0036;color: #fff;padding: 0.14rem 0; width: 100%;height: 1.06rem;max-width: 7.5rem;position: fixed;left: 0;right: 0;bottom: 0;margin: 0 auto;z-index: 80; display: -webkit-box;
-    li{width: 1%;height: 100%; -webkit-box-flex: 1;text-align: center;position: relative;border-right: 0.01rem dashed #fff;
+    li{width: 1%;height: 100%; -webkit-box-flex: 1;text-align: center;position: relative;border-right: 0.02rem dashed #fff;
         &:nth-last-child(1){border-right: 0}
         a{display: block;line-height:0.78rem;color: #fff;font-size: 0.3rem;font-weight: bold;
             img{height: 0.5rem;display: inline-block;vertical-align: middle}
@@ -86,7 +86,7 @@ input:focus{outline:none}
 .pub-tit{text-align: center;line-height: 0.7rem;font-size: 0.56rem;font-weight: bold;}
 .pub-sutit{text-align: center;font-size: 0.26rem;color: #a4a4a4;line-height: 0.4rem;}
 .pub-ins{height: 0.8rem;line-height: 0.8rem;text-align: center;position: relative;
-    &::after{width: 80%;height: 0.01rem;background: #000;position: absolute; top: 50%;left: 50%;-webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);content: ''}
+    &::after{width: 80%;height: 0.02rem;background: #000;position: absolute; top: 50%;left: 50%;-webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);content: ''}
     span{display: inline-block;vertical-align: top;font-size: 0.34rem;padding: 0 0.15rem; background: #fff;position: relative;z-index: 2;}
 }
 .pub-img{padding: 0.2rem 0.4rem;}
@@ -94,9 +94,9 @@ input:focus{outline:none}
 
 /*************************banner*********************/
 .banner{background: #fdd000;height: 3.12rem;position: relative;
-    .swiper-container{ -webkit-transform: scale(1.15); transform: scale(1.15); width: 6.74rem;
-        .swiper-slide{width: 8.09rem;box-shadow: 0 0.15rem 0.15rem rgba(5,7,31,.23);
-            // img{width:  8.09re;height: 4.7rem;}
+    .swiper-container{ width: 6.74rem;
+        .swiper-slide{width: 6.74rem;box-shadow: 0 0.15rem 0.15rem rgba(5,7,31,.23);
+            img{width:  6.74rem;height: 3.92rem;}
         }
     }
     .swiper-pagination{bottom: 0.4rem;}
@@ -154,6 +154,21 @@ input:focus{outline:none}
 }
 /*************************就业喜板*********************/
 .employment{padding: 0.4rem 0 0.45rem;
+    .emscroll-top{text-align: center; width: 6.75rem;margin: 0 auto;
+        p{float: left;}
+        .i1{width: 1.22rem;}
+        .i2{width: 3.63rem;}
+        .i3{width: 1.9rem;}
+        .tab-head{background: #dfe0e0; height: 0.55rem;padding: 0.15rem 0; font-weight: bold;font-size: 0.32rem;}
+        .swiper-container{height: 6rem;
+            .swiper-slide{height: 0.6rem;  overflow: hidden;
+                p{height: 0.6rem; border: 0.02rem solid #dfe0e0;border-top: 0;border-left: 0;line-height:0.6rem;
+                    &:nth-child(1){border-left: 0.02rem solid #dfe0e0;}
+                }
+            }
+        }
+        
+    }
 }
 /*************************师资团队开始*********************/
 .teams{padding: 0.4rem 0 0.45rem;
@@ -162,6 +177,22 @@ input:focus{outline:none}
 /*************************特色课程开始*********************/
 .curriculum{padding: 0.4rem 0 0.45rem;
 
+}
+.curriculum-list{
+    .list-dl{padding: 0 0.38rem;
+        a{display: block;position: relative;float: left;margin-top: 0.13rem;}
+        .more{width: 100%;height: 1.59rem;background: #fdd000;
+            span{width: 100%;text-align: center; position: absolute; top: 50%;left: 50%;font-size: 0.44rem;line-height: 0.5rem; -webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+        }
+        .tit{width: 100%;height: 0.57rem;line-height: 0.57rem;text-align: center;background-color: rgba(0,0,0,0.6);color: #fff;font-size: 0.3rem;position: absolute; bottom: 0;left: 0;}
+        .w1{width: 4.46rem;}
+        .w2{width: 2.15rem;}
+        .w3{width: 3.33rem;margin-right: 0.12rem}
+        .w4{width: 1.57rem;}
+        .style-02{width:4.54rem;
+            a{margin-right: 0.12rem;width: 2.15rem;}
+        }
+    }
 }
 /*************************最新开课开始*********************/
 .news-zx{height: 2.75rem; padding: 1.3rem 0 0.45rem;
