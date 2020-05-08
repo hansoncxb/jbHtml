@@ -16,7 +16,7 @@
 	<!-- 微软的老式浏览器 -->
 	<meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
 	<meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
-	<title></title>
+	<title>UI课程页面</title>
 	<link rel="stylesheet" href="lib/swiper/swiper.min.css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
@@ -90,6 +90,59 @@
 		<!--特色课程-->
 		<div class="curriculum white">
 			<p class="pub-tit">掌握核心设计技能<br>“钱”途无量</p>
+			<div class="curriculum-list mt30">
+				<div class="list-dl cf">
+					<div class="fl w1"><a href=""><img src="images/c-pic12.jpg" alt=""></a></div>
+					<div class="fr w2">
+						<a href=""><img src="images/c-pic14.jpg" alt="">
+							<p class="tit">前端设计</p>
+						</a>
+						<a href=""><img src="images/c-pic14.jpg" alt="">
+							<p class="tit">网页设计</p>
+						</a>
+					</div>
+				</div>
+				<div class="list-dl cf">
+					<div class="fl w1">
+						<div class="style-02">
+							<a href=""><img src="images/c-pic15.jpg" alt="">
+								<p class="tit">AI</p>
+							</a>
+							<a href=""><img src="images/c-pic16.jpg" alt="">
+								<p class="tit">AE设计</p>
+							</a>
+							<a href=""><img src="images/c-pic17.jpg" alt="">
+								<p class="tit">PS</p>
+							</a>
+							<a href=""><img src="images/c-pic18.jpg" alt="">
+								<p class="tit">界面设计</p>
+							</a>
+						</div>
+					</div>
+					<div class="fr w2">
+						<a href=""><img src="images/c-pic19.jpg" alt=""></a>
+					</div>
+				</div>
+				<div class="list-dl cf">
+					<div class="fl w3">
+						<a href=""><img src="images/c-pic20.jpg" alt=""></a>
+					</div>
+					<div class="fl w4">
+						<a href=""><img src="images/c-pic21.jpg" alt="">
+							<p class="tit">UE设计</p>
+						</a>
+					</div>
+					<div class="fr w4">
+						<a href=""><img src="images/c-pic22.jpg" alt="">
+							<p class="tit">插画设计</p>
+						</a>
+						<a href=""><img src="images/c-pic23.jpg" alt="">
+							<p class="tit">创意设计</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="cf mt20"></div>
 		</div>
 		<!--课程大纲-->
 		<div class="outline gray">
@@ -121,32 +174,32 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<a href="JavaScript:;">更多课程</a>
-						<img src="images/tab-pic-01.jpg" alt="">
+						<img src="images/u-tab-pic-01.jpg" alt="">
 					</div>
 					<div class="swiper-slide">
 						<a href="JavaScript:;">更多课程</a>
-						<img src="images/tab-pic-01.jpg" alt="">
+						<img src="images/u-tab-pic-01.jpg" alt="">
 					</div>
 					<div class="swiper-slide">
 						<a href="JavaScript:;">更多课程</a>
-						<img src="images/tab-pic-01.jpg" alt="">
+						<img src="images/u-tab-pic-01.jpg" alt="">
 					</div>
 					<div class="swiper-slide">
 						<a href="JavaScript:;">更多课程</a>
-						<img src="images/tab-pic-01.jpg" alt="">
+						<img src="images/u-tab-pic-01.jpg" alt="">
 					</div>
 					<div class="swiper-slide">
 						<a href="JavaScript:;">更多课程</a>
-						<img src="images/tab-pic-01.jpg" alt="">
+						<img src="images/u-tab-pic-01.jpg" alt="">
 					</div>
 					<div class="swiper-slide">
 						<a href="JavaScript:;">更多课程</a>
-						<img src="images/tab-pic-01.jpg" alt="">
+						<img src="images/u-tab-pic-01.jpg" alt="">
 					</div>
 				</div>
 			</div>
 
-			<a href="javascript:;" class="pub-btn mt30">了解完整课程大纲</a>
+			<a href="javascript:;" class="pub-btn mt40">了解完整课程大纲</a>
 		</div>
 		<!--疑难问题-->
 		<div class="question white">
@@ -200,29 +253,31 @@
 	</div>
 	<script src="lib/jquery.min.js"></script>
 	<script src="lib/swiper/swiper.min.js"></script>
+	<script src="js/public.js"></script>
 	<script>
-		var galleryThumbs = new Swiper('.gallery-thumbs', {
-			spaceBetween: 5,
-			slidesPerView: 6,
-			freeMode: true,
-			watchSlidesVisibility: true,
-			watchSlidesProgress: true,
-		});
-		var galleryTop = new Swiper('.gallery-top', {
-			spaceBetween: 10,
-			thumbs: {
-				swiper: galleryThumbs
-			},
-			autoplay: {
-				delay: 5000,
-				stopOnLastSlide: false,
-				disableOnInteraction: false,
-			},
-		});
-		$(".gallery-thumbs .swiper-slide").on("click", function () {
-			var _index = $(this).index();
-			galleryTop.slideTo(_index, 500, true);
-		});
+		//详情页课程切换
+        var galleryThumbs3 = new Swiper('.outline .gallery-thumbs', {
+            spaceBetween: 5,
+            slidesPerView: 6,
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop3 = new Swiper('.outline .gallery-top', {
+            spaceBetween: 10,
+            thumbs: {
+                swiper: galleryThumbs3
+            },
+            autoplay: {
+                delay: 5000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+        });
+        $(".outline .gallery-thumbs .swiper-slide").on("click", function () {
+            var _index = $(this).index();
+            galleryTop3.slideTo(_index, 500, true);
+        });
 	</script>
 </body>
 

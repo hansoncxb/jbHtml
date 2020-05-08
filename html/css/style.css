@@ -16,7 +16,7 @@ img { vertical-align: top; max-width: 100%; pointer-events: none; }
 
 .cf:after { content: ''; display: block; height: 0; clear: both; }
 
-body { font-weight: normal; line-height: 0.26rem; color: #000; font-size: 0.24rem; font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica,sans-serif; background: #ffffff; max-width: 7.5rem; margin: 0 auto; -webkit-overflow-scrolling: touch; }
+body { font-weight: normal; line-height: 0.26rem; color: #000; font-size: 0.24rem; background: #ffffff; max-width: 7.5rem; margin: 0 auto; -webkit-overflow-scrolling: touch; }
 
 a { blr: expression(this.onFocus=this.blur()); }
 
@@ -204,7 +204,7 @@ input:focus { outline: none; }
 
 .question .q-list li { width: 1%; -webkit-box-flex: 1; }
 
-.question .q-list li a { background-color: white; box-shadow: 0 0.04rem 0.04rem rgba(5, 7, 31, 0.12); width: 1.5rem; height: 2.04rem; padding: 0.2rem 0 0; display: inline-block; }
+.question .q-list li a { background-color: white; box-shadow: 0 0.02rem 0.05rem rgba(5, 7, 31, 0.12); width: 1.5rem; height: 2.04rem; padding: 0.2rem 0 0; display: inline-block; }
 
 .question .q-list li a img { width: 0.97rem; }
 
@@ -224,6 +224,8 @@ input:focus { outline: none; }
 
 .environment .pub-ins span { background: #f6f6f6; }
 
+.environment .gallery-top { box-shadow: 0 0.15rem 0.15rem rgba(5, 7, 31, 0.25); }
+
 /*************************就业喜板*********************/
 .employment { padding: 0.4rem 0 0.45rem; }
 
@@ -237,13 +239,13 @@ input:focus { outline: none; }
 
 .employment .emscroll-top .i3 { width: 1.9rem; }
 
-.employment .emscroll-top .tab-head { background: #dfe0e0; height: 0.55rem; padding: 0.15rem 0; font-weight: bold; font-size: 0.32rem; }
+.employment .emscroll-top .tab-head { background: #dfe0e0; height: 0.55rem; line-height: 0.6rem; overflow: hidden; font-weight: bold; font-size: 0.32rem; }
 
 .employment .emscroll-top .swiper-container { height: 6rem; }
 
 .employment .emscroll-top .swiper-container .swiper-slide { height: 0.6rem; overflow: hidden; }
 
-.employment .emscroll-top .swiper-container .swiper-slide p { height: 0.6rem; border: 0.02rem solid #dfe0e0; border-top: 0; border-left: 0; line-height: 0.6rem; }
+.employment .emscroll-top .swiper-container .swiper-slide p { height: 0.6rem; border: 0.02rem solid #dfe0e0; border-top: 0; border-left: 0; line-height: 0.58rem; }
 
 .employment .emscroll-top .swiper-container .swiper-slide p:nth-child(1) { border-left: 0.02rem solid #dfe0e0; }
 
@@ -251,6 +253,42 @@ input:focus { outline: none; }
 .teams { padding: 0.4rem 0 0.45rem; }
 
 .teams .pub-ins span { background: #f6f6f6; }
+
+.teams .photo { width: 3.08rem; height: 4.18rem; position: absolute; top: 0; left: 0; z-index: 1; }
+
+.teams .photo img { width: 3.08rem; height: 4.18rem; }
+
+.teams .gallery-top .swiper-slide { width: 100%; height: 4.18rem; position: relative; padding: 0.02rem 0.02rem 0.02rem 3.08rem; background: #fdd000; }
+
+.teams .t-cont { width: 100%; height: 100%; padding: 0.4rem 0.3rem 0; background: #fff; }
+
+.teams .t-cont .tit { height: 0.33rem; line-height: 0.33rem; overflow: hidden; }
+
+.teams .t-cont .tit .name { float: left; padding-right: 0.15rem; font-size: 0.3rem; font-weight: bold; border-right: 0.02rem  solid #000; margin-right: 0.15rem; }
+
+.teams .t-cont .tit .work { font-size: 0.2rem; }
+
+.teams .t-cont .worklist { padding: 0.3rem 0 0; }
+
+.teams .t-cont .worklist li { color: #f7ab00; font-size: 0.2rem; line-height: 0.35rem; position: relative; padding-left: 0.1rem; }
+
+.teams .t-cont .worklist li::after { width: 0.04rem; height: 0.04rem; border-radius: 0.04rem; background: #f7ab00; position: absolute; top: 50%; left: 0; margin-top: -0.02rem; content: ''; }
+
+.teams .t-cont .work-ex { padding: 0.3rem 0 0; }
+
+.teams .t-cont .work-ex .stit { font-size: 0.22rem; line-height: 0.3rem; font-weight: bold; }
+
+.teams .t-cont .work-ex .snr { line-height: 0.26rem; font-size: 0.16rem; margin-top: 0.1rem; max-height: 1.3rem; overflow: hidden; }
+
+.photo-swiper { width: 6.74rem; margin: 0 auto; }
+
+.photo-swiper .gallery-thumbs { width: 6.74rem; margin: 0.45rem auto 0; }
+
+.photo-swiper .gallery-thumbs .swiper-slide { background: #f6f6f6; padding: 0.03rem; }
+
+.photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background: #fdd000; }
+
+.photo-swiper .gallery-top { width: 100%; margin: 0 auto; }
 
 /*************************特色课程开始*********************/
 .curriculum { padding: 0.4rem 0 0.45rem; }
@@ -282,12 +320,28 @@ input:focus { outline: none; }
 
 .news-zx .box { width: 6.74rem; height: 1.01rem; background: url(../images/news.png) no-repeat; background-size: 100% 100%; margin: 0 auto; }
 
+.news-zx .box .swiper-container { width: 3.2rem; height: 0.95rem; float: left; margin: 0.03rem 0 0 1rem; }
+
+.news-zx .box .swiper-container .swiper-slide { padding: 0.13rem 0 0; height: 100%; }
+
+.news-zx .box .swiper-container .swiper-slide p { overflow: hidden; text-align: center; }
+
+.news-zx .box .swiper-container .swiper-slide p.classname { font-weight: bold; font-size: 0.36rem; line-height: 0.45rem; }
+
+.news-zx .box .swiper-container .swiper-slide p.classtime { font-size: 0.22rem; line-height: 0.3rem; }
+
+.news-zx .box .text { float: right; font-size: 0.3rem; margin: 0.4rem 0.4rem 0 0; }
+
 /************************************UI课程详情页*******************************************/
 .ui-page .get-class, .ui-page .online { background-image: linear-gradient(#b712c1, #8b4cd2); color: #fff; }
 
 .ui-page input { color: #333; }
 
 .ui-page .pub-tit { line-height: 0.65rem; font-size: 0.5rem; }
+
+.ui-page .outline { padding: 0.55rem 0 0.55rem; }
+
+.ui-page .curriculum { padding: 0.55rem 0 0.45rem; }
 
 /*****课程大纲*****/
 .outline { padding: 0.45rem 0 0.45rem; }
@@ -308,12 +362,12 @@ input:focus { outline: none; }
 
 .outline .gallery-top .swiper-slide img { box-shadow: 0 0.04rem 0.12rem rgba(5, 7, 31, 0.12); }
 
-.outline .gallery-top .swiper-slide a { position: absolute; left: 0; bottom: 0; }
+.outline .gallery-top .swiper-slide a { position: absolute; left: 0.5rem; bottom: 0.3rem; width: 0.9rem; height: 0.6rem; line-height: 999px; overflow: hidden; }
 
 /*****内页banner***/
 .inbanner { position: relative; }
 
-.inbanner .btn { width: 2.12rem; height: 0.55rem; line-height: 0.5rem; text-align: center; font-size: 0.26rem; font-weight: bold; border-radius: 0.05rem; background: #ffe900; box-shadow: 0 -0.05rem 0 #e7b700 inset; display: block; position: absolute; left: 50%; bottom: 0.55rem; margin-left: -1.06rem; }
+.inbanner .btn { width: 2.12rem; height: 0.55rem; line-height: 0.55rem; text-align: center; font-size: 0.26rem; font-weight: bold; border-radius: 0.05rem; background: #ffe900; box-shadow: 0 -0.05rem 0 #e7b700 inset; display: block; position: absolute; left: 50%; bottom: 0.55rem; margin-left: -1.06rem; }
 
 /*****why*********/
 .why-study { padding: 0.5rem 0 0.45rem; }
@@ -322,3 +376,37 @@ input:focus { outline: none; }
 .test-money { padding: 0.5rem 0 0.45rem; }
 
 .test-money .pub-btn { font-size: 0.26rem; }
+
+/******************************电商课程详情页******************************/
+.eshop-page .pub-tit { font-size: 0.46rem; line-height: 0.57rem; }
+
+.eshop-page .pub-btn { background-image: url(../images/btn2.png); color: #fff; }
+
+.eshop-page .get-class, .eshop-page .online { background-image: linear-gradient(#3edcff, #753fff); color: #fff; }
+
+.eshop-page .get-class .from-th, .eshop-page .online .from-th { color: #000; }
+
+.eshop-page .get-class .pub-btn, .eshop-page .online .pub-btn { background-image: url(../images/btn1.png); color: #000; }
+
+.eshop-page .class-sort { padding: 0.5rem 0 0.45rem; }
+
+.eshop-page .teams .gallery-top .swiper-slide { background-image: linear-gradient(#76d5fd, #8043fe); }
+
+.eshop-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background-image: linear-gradient(#76d5fd, #8043fe); }
+
+.eshop-page .teams .worklist li { color: #7836ff; }
+
+.eshop-page .teams .worklist li::after { background: #7836ff; }
+
+/*试一试*/
+.try { padding: 0.5rem 0; }
+
+.try .try-from li { width: 100%; line-height: 0.7rem; padding-left: 1.5rem; margin-top: 0.15rem; position: relative; }
+
+.try .try-from li .from-th { width: 1.5rem; display: block; text-align: right; padding-right: 0.15rem; font-weight: bold; font-size: 0.28rem; color: #717171; position: absolute; top: 0; left: 0; }
+
+.try .try-from li .from-input { width: 100%; }
+
+.try .try-from li .from-input input { width: 4.76rem; height: 0.7rem; border: 00.02rem solid #9483f6; background: #fff; outline: none; padding: 0 0.15rem; }
+
+.try .try-from li .pub-btn { margin-top: 0.1rem; }

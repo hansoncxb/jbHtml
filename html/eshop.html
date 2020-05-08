@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="email=no" name="format-detection">
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+    <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+    <title>电商课程页面</title>
+    <link rel="stylesheet" href="lib/swiper/swiper.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        var w = window,
+            d = document.documentElement,
+            c;
+        function sesetfontsize() {
+            var deviceWidth = d.clientWidth;
+            deviceWidth > 750 && (deviceWidth = 750);
+            var a = (deviceWidth / 7.5).toFixed(2);
+            d.style.fontSize = a + "px";
+            var b = parseFloat(w.getComputedStyle(d, null).fontSize);
+            if (a != b) {
+                a = a * a / b;
+                d.style.fontSize = a + "px";
+            }
+        }
+        sesetfontsize();
+        w.addEventListener("resize", function () {
+            clearTimeout(c),
+                c = setTimeout(sesetfontsize, 300)
+        }, !1)
+        // 统计代码
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?7d4e9cc8ca3e9dbeb06e90974709c3af";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="page eshop-page">
+        <!--公用头部-->
+        <header class="head">
+            <a href="index.html" class="btn logo">金榜设计教育</a>
+            <a href="javascript:;" class="btn tel">0592-5822788</a>
+        </header>
+        <!--公用导航-->
+        <nav class="menu">
+            <li class="on"><a href="">首页</a></li>
+            <li><a href="">课程</a></li>
+            <li><a href="">师资</a></li>
+            <li><a href="">作品</a></li>
+            <li><a href="">就业</a></li>
+        </nav>
+        <!--banner-->
+        <div class="inbanner">
+            <img src="images/e-banner.jpg" alt="">
+            <a href="JavaScript:;" class="btn">免费试学</a>
+        </div>
+        <!--高薪难求-->
+        <div class="test-money white">
+            <p class="pub-tit">真实数据告诉你<br>为什么电商设计的薪资这么高！</p>
+            <p class="pub-img mt20"><img src="images/e-detail-01.png" alt=""></p>
+        </div>
+        <!--试一试-->
+        <div class="try gray">
+            <p class="pub-tit">试一试我是否适合学？</p>
+            <ul class="try-from mt40">
+                <li>
+                    <span class="from-th">电话:</span>
+                    <div class="from-input">
+                        <input type="text" placeholder="输入电话">
+                    </div>
+                </li>
+            </ul>
+            <a href="javascript:;" class="pub-btn mt50">申请免费试学</a>
+        </div>
+        <!--课程大纲-->
+        <div class="outline white">
+            <p class="pub-tit">2020年全新升级UID课程</p>
+            <div class="swiper-container gallery-thumbs swiper-no-swiping">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <span>设计<br>基础</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <span>C4D<br>制作</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <span>插画<br>制作</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <span>电商<br>实战</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <span>平面<br>实战</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container gallery-top ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="JavaScript:;">更多课程</a>
+                        <img src="images/e-tab-pic-01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="JavaScript:;">更多课程</a>
+                        <img src="images/e-tab-pic-01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="JavaScript:;">更多课程</a>
+                        <img src="images/e-tab-pic-01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="JavaScript:;">更多课程</a>
+                        <img src="images/e-tab-pic-01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="JavaScript:;">更多课程</a>
+                        <img src="images/e-tab-pic-01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="JavaScript:;">更多课程</a>
+                        <img src="images/e-tab-pic-01.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <a href="javascript:;" class="pub-btn mt40">获取完整课程大纲</a>
+        </div>
+        <!--就业师资团队-->
+        <div class="teams gray">
+            <p class="pub-tit">一线电商设计师+运营者<br>全程面授</p>
+            <div class="photo-swiper mt40">
+                <div class="swiper-container gallery-top ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="photo"><img src="pic/t-big-02.jpg" alt=""></div>
+                            <div class="t-cont">
+                                <p class="tit">
+                                    <span class="name">祁厚辰</span>
+                                    <span class="work">服装设计首席讲师</span>
+                                </p>
+                                <ul class="worklist">
+                                    <li>问鼎国际设计总监</li>
+                                    <li>中国设计师协会会员</li>
+                                    <li>厦门市创业指导专家</li>
+                                </ul>
+                                <div class="work-ex">
+                                    <p class="stit">项目经验 :</p>
+                                    <p class="snr">
+                                        20年设计行业经验，曾参与柒牌等服装品牌企业产品项目设计，具有丰富的线下与线上结合设计经验，现主要负责金榜服装设计的课程研发设计、教学与管理工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="photo"><img src="pic/t-big-02.jpg" alt=""></div>
+                            <div class="t-cont">
+                                <p class="tit">
+                                    <span class="name">祁厚辰</span>
+                                    <span class="work">服装设计首席讲师</span>
+                                </p>
+                                <ul class="worklist">
+                                    <li>问鼎国际设计总监</li>
+                                    <li>中国设计师协会会员</li>
+                                    <li>厦门市创业指导专家</li>
+                                </ul>
+                                <div class="work-ex">
+                                    <p class="stit">项目经验 :</p>
+                                    <p class="snr">
+                                        20年设计行业经验，曾参与柒牌等服装品牌企业产品项目设计，具有丰富的线下与线上结合设计经验，现主要负责金榜服装设计的课程研发设计、教学与管理工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="photo"><img src="pic/t-big-02.jpg" alt=""></div>
+                            <div class="t-cont">
+                                <p class="tit">
+                                    <span class="name">祁厚辰</span>
+                                    <span class="work">服装设计首席讲师</span>
+                                </p>
+                                <ul class="worklist">
+                                    <li>问鼎国际设计总监</li>
+                                    <li>中国设计师协会会员</li>
+                                    <li>厦门市创业指导专家</li>
+                                </ul>
+                                <div class="work-ex">
+                                    <p class="stit">项目经验 :</p>
+                                    <p class="snr">
+                                        20年设计行业经验，曾参与柒牌等服装品牌企业产品项目设计，具有丰富的线下与线上结合设计经验，现主要负责金榜服装设计的课程研发设计、教学与管理工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="photo"><img src="pic/t-big-02.jpg" alt=""></div>
+                            <div class="t-cont">
+                                <p class="tit">
+                                    <span class="name">祁厚辰</span>
+                                    <span class="work">服装设计首席讲师</span>
+                                </p>
+                                <ul class="worklist">
+                                    <li>问鼎国际设计总监</li>
+                                    <li>中国设计师协会会员</li>
+                                    <li>厦门市创业指导专家</li>
+                                </ul>
+                                <div class="work-ex">
+                                    <p class="stit">项目经验 :</p>
+                                    <p class="snr">
+                                        20年设计行业经验，曾参与柒牌等服装品牌企业产品项目设计，具有丰富的线下与线上结合设计经验，现主要负责金榜服装设计的课程研发设计、教学与管理工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="photo"><img src="pic/t-big-02.jpg" alt=""></div>
+                            <div class="t-cont">
+                                <p class="tit">
+                                    <span class="name">祁厚辰</span>
+                                    <span class="work">服装设计首席讲师</span>
+                                </p>
+                                <ul class="worklist">
+                                    <li>问鼎国际设计总监</li>
+                                    <li>中国设计师协会会员</li>
+                                    <li>厦门市创业指导专家</li>
+                                </ul>
+                                <div class="work-ex">
+                                    <p class="stit">项目经验 :</p>
+                                    <p class="snr">
+                                        20年设计行业经验，曾参与柒牌等服装品牌企业产品项目设计，具有丰富的线下与线上结合设计经验，现主要负责金榜服装设计的课程研发设计、教学与管理工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-container gallery-thumbs swiper-no-swiping">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="pic/t-small-01.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pic/t-small-02.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pic/t-small-03.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pic/t-small-04.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pic/t-small-05.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:;" class="pub-btn mt40">在线与名师沟通</a>
+        </div>
+        <!--开班类型-->
+        <div class="class-sort white">
+            <p class="pub-tit">2020年电商设计全新开班</p>
+            <ul class="sort-list mt40 cf">
+                <li><a href=""><img src="images/class-sort-01.png" alt=""></a></li>
+                <li><a href=""><img src="images/class-sort-02.png" alt=""></a></li>
+                <li><a href=""><img src="images/class-sort-03.png" alt=""></a></li>
+                <li><a href=""><img src="images/class-sort-04.png" alt=""></a></li>
+            </ul>
+            <a href="javascript:;" class="pub-btn mt30">了解开班详情</a>
+        </div>
+        <!--疑难问题-->
+        <div class="question gray">
+            <p class="tit">还有疑虑？我们帮你解答</p>
+            <ul class="q-list">
+                <li><a href="javascript:;"><img src="images/q-ico1.png" alt="">
+                        <p>老师<br>怎么样?</p>
+                    </a></li>
+                <li><a href="javascript:;"><img src="images/q-ico2.png" alt="">
+                        <p>就业有没有<br>保障?</p>
+                    </a></li>
+                <li><a href="javascript:;"><img src="images/q-ico3.png" alt="">
+                        <p>能不能<br>学得会</p>
+                    </a></li>
+                <li><a href="javascript:;"><img src="images/q-ico4.png" alt="">
+                        <p>学费<br>多少钱？</p>
+                    </a></li>
+            </ul>
+            <a href="javascript:;" class="pub-btn mt30">咨询更多</a>
+        </div>
+        <!--免费课程-->
+        <div class="get-class">
+            <p class="tit">在线申请免费试学</p>
+            <ul class="from">
+                <li>
+                    <span class="from-th">姓名：</span>
+                    <div class="from-input"><input type="text"></div>
+                </li>
+                <li>
+                    <span class="from-th">电话：</span>
+                    <div class="from-input"><input type="text"></div>
+                </li>
+                <li>
+                    <span class="from-th">&nbsp;</span>
+                    <div class="from-input">
+                        <a href="javascript:;" class="pub-btn fl">提交申请</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--公用底部-->
+        <footer class="footer"><span>Copyright 2013 - 2020</span><span>厦门金榜设计职业培训学校.</span><span>All rights
+                reserved.</span><br>  
+            <span>闽ICP备14003808号-1</span><span>全国统一热线：0592-5822788</span></footer>
+        <!--固定底部-->
+        <ul class="fixed-menu">
+            <li><a href="javascript:;"><img src="images/fixed-ico1.png" alt="">我要试学</a></li>
+            <li><a href="javascript:;"><img src="images/fixed-ico2.png" alt="">职业测试</a></li>
+            <li><a href="javascript:;"><img src="images/fixed-ico3.png" alt="">在线咨询</a></li>
+        </ul>
+    </div>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/swiper/swiper.min.js"></script>
+    <script src="js/public.js"></script>
+    <script>
+        // 教师团队
+        var galleryThumbs2 = new Swiper('.teams .gallery-thumbs', {
+            spaceBetween: 5,
+            slidesPerView: 5,
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop2 = new Swiper('.teams .gallery-top', {
+            spaceBetween: 10,
+            thumbs: {
+                swiper: galleryThumbs2
+            },
+            autoplay: {
+                delay: 5000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+        });
+        $(".teams .gallery-thumbs .swiper-slide").on("click", function () {
+            var _index = $(this).index();
+            galleryTop2.slideTo(_index, 500, true);
+        });
+        //详情页课程切换
+        var galleryThumbs3 = new Swiper('.outline .gallery-thumbs', {
+            spaceBetween: 5,
+            slidesPerView: 5,
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop3 = new Swiper('.outline .gallery-top', {
+            spaceBetween: 10,
+            thumbs: {
+                swiper: galleryThumbs3
+            },
+            autoplay: {
+                delay: 5000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+        });
+        $(".outline .gallery-thumbs .swiper-slide").on("click", function () {
+            var _index = $(this).index();
+            galleryTop3.slideTo(_index, 500, true);
+        });
+    </script>
+</body>
+
+</html>
