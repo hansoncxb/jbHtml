@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta content="email=no" name="format-detection">
+    <meta content="telephone=no email=no" name="format-detection">
     <!-- 启用360浏览器的极速模式(webkit) -->
     <meta name="renderer" content="webkit">
     <!-- 避免IE使用兼容模式 -->
@@ -16,7 +16,7 @@
     <!-- 微软的老式浏览器 -->
     <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
     <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
-    <title>电商课程页面</title>
+    <title>服装设计</title>
     <link rel="stylesheet" href="lib/swiper/swiper.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script type="text/javascript">
@@ -52,19 +52,21 @@
 
 <body>
     <div class="page clothing-page">
-        <!--公用头部-->
-        <header class="head">
-            <a href="index.html" class="btn logo">金榜设计教育</a>
-            <a href="javascript:;" class="btn tel">0592-5822788</a>
-        </header>
-        <!--公用导航-->
-        <nav class="menu">
-            <li class="on"><a href="">首页</a></li>
-            <li><a href="">课程</a></li>
-            <li><a href="">师资</a></li>
-            <li><a href="">作品</a></li>
-            <li><a href="">就业</a></li>
-        </nav>
+        <div class="fix-head">
+			<!--公用头部-->
+			<header class="head">
+				<a href="index.html" class="btn logo">金榜设计教育</a>
+				<a href="tel:0592-5822788" class="btn tel">0592-5822788</a>
+			</header>
+			<!--公用导航-->
+			<nav class="menu">
+				<li class="on"><a href="index.html">首页</a></li>
+				<li><a href="">课程</a></li>
+				<li><a href="">师资</a></li>
+				<li><a href="">作品</a></li>
+				<li><a href="">就业</a></li>
+			</nav>
+		</div>
         <!--banner-->
         <div class="inbanner">
             <img src="images/y-banner.jpg" alt="">
@@ -271,7 +273,7 @@
         </div>
         <!--开班类型-->
         <div class="class-sort white">
-            <p class="pub-tit">2020年电商设计全新开班</p>
+            <p class="pub-tit">服装设计全新开班</p>
             <ul class="sort-list mt40 cf">
                 <li><a href=""><img src="images/class-sort-01.png" alt=""></a></li>
                 <li><a href=""><img src="images/class-sort-02.png" alt=""></a></li>
@@ -333,54 +335,6 @@
     <script src="lib/jquery.min.js"></script>
     <script src="lib/swiper/swiper.min.js"></script>
     <script src="js/public.js"></script>
-    <script>
-        // 教师团队
-        var galleryThumbs2 = new Swiper('.teams .gallery-thumbs', {
-            spaceBetween: 5,
-            slidesPerView: 5,
-            freeMode: true,
-            watchSlidesVisibility: true,
-            watchSlidesProgress: true,
-        });
-        var galleryTop2 = new Swiper('.teams .gallery-top', {
-            spaceBetween: 10,
-            thumbs: {
-                swiper: galleryThumbs2
-            },
-            autoplay: {
-                delay: 5000,
-                stopOnLastSlide: false,
-                disableOnInteraction: false,
-            },
-        });
-        $(".teams .gallery-thumbs .swiper-slide").on("click", function () {
-            var _index = $(this).index();
-            galleryTop2.slideTo(_index, 500, true);
-        });
-        //详情页课程切换
-        var galleryThumbs3 = new Swiper('.outline .gallery-thumbs', {
-            spaceBetween: 5,
-            slidesPerView: 6,
-            freeMode: true,
-            watchSlidesVisibility: true,
-            watchSlidesProgress: true,
-        });
-        var galleryTop3 = new Swiper('.outline .gallery-top', {
-            spaceBetween: 10,
-            thumbs: {
-                swiper: galleryThumbs3
-            },
-            autoplay: {
-                delay: 5000,
-                stopOnLastSlide: false,
-                disableOnInteraction: false,
-            },
-        });
-        $(".outline .gallery-thumbs .swiper-slide").on("click", function () {
-            var _index = $(this).index();
-            galleryTop3.slideTo(_index, 500, true);
-        });
-    </script>
 </body>
 
 </html>

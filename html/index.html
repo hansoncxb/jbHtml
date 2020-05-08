@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta content="email=no" name="format-detection">
+	<meta content="telephone=no email=no" name="format-detection">
 	<!-- 启用360浏览器的极速模式(webkit) -->
 	<meta name="renderer" content="webkit">
 	<!-- 避免IE使用兼容模式 -->
@@ -51,20 +51,22 @@
 </head>
 
 <body>
-	<div class="page">
-		<!--公用头部-->
-		<header class="head">
-			<a href="index.html" class="btn logo">金榜设计教育</a>
-			<a href="javascript:;" class="btn tel">0592-5822788</a>
-		</header>
-		<!--公用导航-->
-		<nav class="menu">
-			<li class="on"><a href="">首页</a></li>
-			<li><a href="">课程</a></li>
-			<li><a href="">师资</a></li>
-			<li><a href="">作品</a></li>
-			<li><a href="">就业</a></li>
-		</nav>
+	<div class="page index-page">
+		<div class="fix-head">
+			<!--公用头部-->
+			<header class="head">
+				<a href="index.html" class="btn logo">金榜设计教育</a>
+				<a href="tel:0592-5822788" class="btn tel">0592-5822788</a>
+			</header>
+			<!--公用导航-->
+			<nav class="menu">
+				<li class="on"><a href="index.html">首页</a></li>
+				<li><a href="">课程</a></li>
+				<li><a href="">师资</a></li>
+				<li><a href="">作品</a></li>
+				<li><a href="">就业</a></li>
+			</nav>
+		</div>
 		<!--banner-->
 		<div class="banner">
 			<div class="swiper-container">
@@ -646,29 +648,6 @@
 		$(".environment .gallery-thumbs .swiper-slide").on("click", function () {
 			var _index = $(this).index();
 			galleryTop1.slideTo(_index, 500, true);
-		});
-		// 教师团队
-		var galleryThumbs2 = new Swiper('.teams .gallery-thumbs', {
-			spaceBetween: 5,
-			slidesPerView: 5,
-			freeMode: true,
-			watchSlidesVisibility: true,
-			watchSlidesProgress: true,
-		});
-		var galleryTop2 = new Swiper('.teams .gallery-top', {
-			spaceBetween: 10,
-			thumbs: {
-				swiper: galleryThumbs2
-			},
-			autoplay: {
-				delay: 5000,
-				stopOnLastSlide: false,
-				disableOnInteraction: false,
-			},
-		});
-		$(".teams .gallery-thumbs .swiper-slide").on("click", function () {
-			var _index = $(this).index();
-			galleryTop2.slideTo(_index, 500, true);
 		});
 	</script>
 </body>

@@ -98,11 +98,13 @@ input:focus { outline: none; }
 
 .btn { width: 2.18rem; height: 0.64rem; display: inline-block; overflow: hidden; line-height: 999px; background-size: 100%; background-repeat: no-repeat; }
 
-.page { position: relative; padding-bottom: 1rem; }
+.page { position: relative; padding: 2.27rem 0 1rem; }
 
 .white { background: #fff !important; }
 
 .gray { background: #f6f6f6 !important; }
+
+.fix-head { width: 100%; max-width: 7.5rem; position: fixed; top: 0; left: 0; right: 0; margin: 0 auto; z-index: 50; }
 
 /*公用头部start*/
 .head { height: 1.15rem; background: #000000; }
@@ -155,7 +157,7 @@ input:focus { outline: none; }
 
 /***********************通用部分结束**********************/
 /*************************banner*********************/
-.banner { background: #fdd000; height: 3.12rem; position: relative; }
+.banner { background: #fdd000; height: 3.3rem; padding-top: 0.18rem; position: relative; }
 
 .banner .swiper-container { width: 6.74rem; }
 
@@ -168,6 +170,8 @@ input:focus { outline: none; }
 .banner .swiper-pagination-bullet { width: 0.32rem; height: 0.05rem; background: #bfbfbf; border-radius: 0; opacity: 1; }
 
 .banner .swiper-pagination-bullet-active { background: #fdd000; }
+
+.index-page { padding-top: 2.09rem; }
 
 /********************通用提交课程表单开始******************/
 .get-class, .online { background: #fabe00; padding: 0.35rem 0; }
@@ -311,6 +315,8 @@ input:focus { outline: none; }
 
 .curriculum-list .list-dl .w4 { width: 1.57rem; }
 
+.curriculum-list .list-dl .w5 { width: 2.15rem; margin-left: 0.12rem; }
+
 .curriculum-list .list-dl .style-02 { width: 4.54rem; }
 
 .curriculum-list .list-dl .style-02 a { margin-right: 0.12rem; width: 2.15rem; }
@@ -362,12 +368,14 @@ input:focus { outline: none; }
 
 .outline .gallery-top .swiper-slide img { box-shadow: 0 0.04rem 0.12rem rgba(5, 7, 31, 0.12); }
 
-.outline .gallery-top .swiper-slide a { position: absolute; left: 0.5rem; bottom: 0.3rem; width: 0.9rem; height: 0.6rem; line-height: 999px; overflow: hidden; }
+.outline .gallery-top .swiper-slide a { position: absolute; left: 0.5rem; bottom: 0.3rem; width: 0.9rem; height: 0.6rem; color: #eb50fe; text-align: center; font-size: 0.2rem; overflow: hidden; }
+
+.outline .gallery-top .swiper-slide a:after { width: 0; height: 0; border-right: 0.1rem solid transparent; border-left: 0.1rem solid transparent; border-top: 0.15rem solid #eb50fe; position: absolute; top: 0.35rem; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); content: ''; }
 
 /*****内页banner***/
 .inbanner { position: relative; }
 
-.inbanner .btn { width: 2.12rem; height: 0.55rem; line-height: 0.55rem; text-align: center; font-size: 0.26rem; font-weight: bold; border-radius: 0.05rem; background: #ffe900; box-shadow: 0 -0.05rem 0 #e7b700 inset; display: block; position: absolute; left: 50%; bottom: 0.55rem; margin-left: -1.06rem; }
+.inbanner .btn { width: 2.12rem; height: 0.55rem; line-height: 0.55rem; text-align: center; font-size: 0.26rem; font-weight: bold; border-radius: 0.05rem; background: #ffe900; box-shadow: 0 -0.05rem 0 #e7b700 inset; display: block; position: absolute; left: 50%; bottom: 0.53rem; margin-left: -1.06rem; }
 
 /*****why*********/
 .why-study { padding: 0.5rem 0 0.45rem; }
@@ -390,9 +398,15 @@ input:focus { outline: none; }
 
 .eshop-page .class-sort { padding: 0.5rem 0 0.45rem; }
 
-.eshop-page .teams .gallery-top .swiper-slide { background-image: linear-gradient(#76d5fd, #8043fe); }
+.eshop-page .outline .gallery-thumbs .swiper-slide-thumb-active { background-image: linear-gradient(#6dd0fd, #783aff); color: #fff; }
 
-.eshop-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background-image: linear-gradient(#76d5fd, #8043fe); }
+.eshop-page .outline .gallery-top .swiper-slide a { color: #7836ff; }
+
+.eshop-page .outline .gallery-top .swiper-slide a:after { border-top: 0.15rem solid #7836ff; }
+
+.eshop-page .teams .gallery-top .swiper-slide { background-image: linear-gradient(#6dd3fd, #783aff); }
+
+.eshop-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background-image: linear-gradient(#6dd3fd, #783aff); }
 
 .eshop-page .teams .worklist li { color: #7836ff; }
 
@@ -412,6 +426,8 @@ input:focus { outline: none; }
 .try .try-from li .pub-btn { margin-top: 0.1rem; }
 
 /******************************服装设计课程详情页******************************/
+.clothing-page .inbanner .btn { bottom: 0.73rem; }
+
 .clothing-page .pub-btn { background-image: url(../images/btn3.png); color: #fff; font-size: 0.3rem; }
 
 .clothing-page .pub-tit { font-size: 0.46rem; line-height: 0.57rem; color: #686868; }
@@ -421,3 +437,93 @@ input:focus { outline: none; }
 .clothing-page .outline .gallery-thumbs .swiper-slide { color: #686868; }
 
 .clothing-page .outline .gallery-thumbs .swiper-slide-thumb-active { background: #ff437f; color: #fff; }
+
+.clothing-page .outline .gallery-top .swiper-slide a { color: #ff437f; }
+
+.clothing-page .outline .gallery-top .swiper-slide a:after { border-top: 0.15rem solid #ff437f; }
+
+.clothing-page .teams .gallery-top .swiper-slide { background: #ff437f; }
+
+.clothing-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background: #ff437f; }
+
+.clothing-page .teams .worklist li { color: #ff437f; }
+
+.clothing-page .teams .worklist li::after { background: #ff437f; }
+
+.clothing-page .question .tit { color: #686868; font-size: 0.48rem; }
+
+.clothing-page .get-class, .clothing-page .online { background: #ff437f; color: #fff; }
+
+/******************************平面电商课程详情页******************************/
+.graphic-page .inbanner .btn { bottom: 0.73rem; }
+
+.graphic-page .pub-btn { background-image: url(../images/btn4.png); color: #fff; font-size: 0.3rem; }
+
+.graphic-page .pub-tit { font-size: 0.46rem; line-height: 0.57rem; }
+
+.graphic-page .get-class, .graphic-page .online { background: #f3b346; }
+
+.graphic-page .get-class .tit, .graphic-page .online .tit { color: #fff; }
+
+.graphic-page .get-class .pub-btn, .graphic-page .online .pub-btn { background-image: url(../images/btn1.png); color: #000; }
+
+.graphic-page .teams .gallery-top .swiper-slide { background: #ff9b00; }
+
+.graphic-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background: #ff9b00; }
+
+.graphic-page .teams .worklist li { color: #ff9b00; }
+
+.graphic-page .teams .worklist li::after { background: #ff9b00; }
+
+.graphic-page .outline .gallery-thumbs .swiper-slide-thumb-active { background: #f0a018; color: #fff; }
+
+.graphic-page .outline .gallery-top .swiper-slide a { color: #da9929; }
+
+.graphic-page .outline .gallery-top .swiper-slide a:after { border-top: 0.15rem solid #da9929; }
+
+.graphic-page .try input { border-color: #ff9b00 !important; }
+
+.whychose { padding: 0.5rem 0; }
+
+.whychose .why-list { width: 6.72rem; margin: 0.4rem auto 0; }
+
+.whychose .why-list li { width: 100%; height: 3rem; padding: 0.02rem; margin-top: 0.2rem; background: #da9929; position: relative; }
+
+.whychose .why-list li:nth-child(2) img { left: auto; right: 0; }
+
+.whychose .why-list li:nth-child(2) .tit { left: 0; padding-right: 0.54rem; text-align: right; }
+
+.whychose .why-list li:nth-child(2) .tit::after { border-top: 0.1rem solid transparent; border-bottom: 0.1rem solid transparent; border-right: 0.1rem solid white; border-left: 0; left: auto; right: 0.27rem; }
+
+.whychose .why-list li:nth-child(2) .cont { padding: 1rem 3.6rem 0 0.5rem; }
+
+.whychose .why-list li img { width: 3.35rem; height: 3rem; position: absolute; top: 0; left: 0; z-index: 2; }
+
+.whychose .why-list li .cont { background: #fff; width: 100%; height: 100%; padding: 1rem 0.3rem 0 3.6rem; }
+
+.whychose .why-list li .cont p { position: relative; line-height: 0.3rem; font-size: 0.18rem; padding-left: 0.15rem; }
+
+.whychose .why-list li .cont p::after { width: 0.06rem; height: 0.06rem; border-radius: 0.06rem; background: #ff9b00; position: absolute; top: 0.12rem; left: 0; content: ''; }
+
+.whychose .why-list li .tit { background: #f0a018; width: 3.4rem; height: 0.43rem; line-height: 0.43rem; color: #fff; font-size: 0.24rem; font-weight: bold; padding-left: 0.54rem; position: absolute; top: 0; right: 0; }
+
+.whychose .why-list li .tit:after { width: 0; height: 0; border-top: 0.1rem solid transparent; border-bottom: 0.1rem solid transparent; border-left: 0.1rem solid white; content: ''; position: absolute; top: 50%; left: 0.28rem; -webkit-transform: translate(0, -50%); transform: translate(0, -50%); }
+
+/******************************室内设计课程详情页******************************/
+.indesign-page .pub-tit { font-size: 0.5rem; line-height: 0.57rem; }
+
+.indesign-page .outline .gallery-thumbs .swiper-slide-thumb-active { background: #fdd000; color: #000; }
+
+.indesign-page .outline .gallery-top .swiper-slide a { color: #fdd000; }
+
+.indesign-page .outline .gallery-top .swiper-slide a:after { border-top: 0.15rem solid #fdd000; }
+
+.classic { padding: 0.4rem 0; }
+
+.classic .list { text-align: center; }
+
+.classic .list li { width: 2.2rem; display: inline-block; vertical-align: top; }
+
+.classic .list li img { width: 1.6rem; }
+
+.classic .list li .tit { font-size: 0.28rem; padding-top: 0.2rem; }
