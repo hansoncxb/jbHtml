@@ -410,3 +410,14 @@ input:focus { outline: none; }
 .try .try-from li .from-input input { width: 4.76rem; height: 0.7rem; border: 00.02rem solid #9483f6; background: #fff; outline: none; padding: 0 0.15rem; }
 
 .try .try-from li .pub-btn { margin-top: 0.1rem; }
+
+/******************************服装设计课程详情页******************************/
+.clothing-page .pub-btn { background-image: url(../images/btn3.png); color: #fff; font-size: 0.3rem; }
+
+.clothing-page .pub-tit { font-size: 0.46rem; line-height: 0.57rem; color: #686868; }
+
+.clothing-page .try input { border-color: #ff5e91 !important; }
+
+.clothing-page .outline .gallery-thumbs .swiper-slide { color: #686868; }
+
+.clothing-page .outline .gallery-thumbs .swiper-slide-thumb-active { background: #ff437f; color: #fff; }

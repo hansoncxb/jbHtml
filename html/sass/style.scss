@@ -308,5 +308,19 @@ input:focus{outline:none}
         }
     }
 }
+/******************************服装设计课程详情页******************************/
+.clothing-page{
+    .pub-btn{background-image: url(../images/btn3.png);color: #fff;font-size: 0.3rem;}
+    .pub-tit{font-size: 0.46rem;line-height: 0.57rem;color: #686868}
+    .try{
+        input{border-color: #ff5e91 !important}
+    }
+    .outline{
+        .gallery-thumbs{
+            .swiper-slide{color: #686868;}
+            .swiper-slide-thumb-active{background:#ff437f;color: #fff;}
+        }
+    }
+}
 
 
