@@ -364,15 +364,29 @@ input:focus { outline: none; }
 
 .outline .gallery-thumbs .swiper-slide-thumb-active { background-image: linear-gradient(#c03fcd, #a742e3); color: #fff; }
 
-.outline .gallery-top { width: 6.97rem; height: 5.59rem; margin: 0.22rem auto 0; }
+.outline .gallery-top { width: 6.97rem; height: 5.59rem; padding: 0.12rem; margin: 0.22rem auto 0; }
 
-.outline .gallery-top .swiper-slide { width: 100%; height: 100%; padding: 0.08rem 0.12rem 0.16rem; position: relative; }
+.outline .gallery-top .swiper-slide { background: #fff; width: 6.73rem; height: 5.38rem; box-shadow: 0 0.04rem 0.12rem rgba(5, 7, 31, 0.12); padding: 0.1rem; position: relative; }
 
-.outline .gallery-top .swiper-slide img { box-shadow: 0 0.04rem 0.12rem rgba(5, 7, 31, 0.12); }
+.outline .gallery-top .swiper-slide img { width: 5rem; height: 5.18rem; float: right; }
 
-.outline .gallery-top .swiper-slide a { position: absolute; left: 0.5rem; bottom: 0.3rem; width: 0.9rem; height: 0.6rem; color: #eb50fe; text-align: center; font-size: 0.2rem; overflow: hidden; }
+.outline .gallery-top .swiper-slide a { position: absolute; left: 0.1rem; bottom: 0.2rem; width: 1.5rem; height: 0.6rem; color: #eb50fe; text-align: center; font-size: 0.2rem; overflow: hidden; }
 
 .outline .gallery-top .swiper-slide a:after { width: 0; height: 0; border-right: 0.1rem solid transparent; border-left: 0.1rem solid transparent; border-top: 0.15rem solid #eb50fe; position: absolute; top: 0.35rem; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); content: ''; }
+
+.outline .gallery-top .swiper-slide .sort { width: 1.5rem; float: left; height: 4.1rem; }
+
+.outline .gallery-top .swiper-slide .sort li { height: 25%; font-size: 0.2rem; position: relative; }
+
+.outline .gallery-top .swiper-slide .sort li span { white-space: nowrap; position: absolute; top: 50%; left: 50%; text-align: center; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.outline .gallery-top .swiper-slide .sort1 { height: 4.4rem; }
+
+.outline .gallery-top .swiper-slide .sort1 li { height: 20%; }
+
+.outline .gallery-top .swiper-slide .sort2 { height: 4.4rem; }
+
+.outline .gallery-top .swiper-slide .sort2 li { height: 33%; }
 
 /*****内页banner***/
 .inbanner { position: relative; }
