@@ -65,3 +65,7 @@ function classTab(showNum) {
         galleryTop3.slideTo(_index, 500, true);
     });
 }
+// 商务通代码
+function business(){
+    alert("我是执行链接到商务通")
+}
