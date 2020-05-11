@@ -274,17 +274,17 @@ input:focus { outline: none; }
 
 .teams .t-cont .tit .work { font-size: 0.2rem; }
 
-.teams .t-cont .worklist { padding: 0.3rem 0 0; }
+.teams .t-cont .worklist { padding: 0.3rem 0 0; min-height: 1.35rem; }
 
 .teams .t-cont .worklist li { color: #f7ab00; font-size: 0.2rem; line-height: 0.35rem; position: relative; padding-left: 0.1rem; }
 
-.teams .t-cont .worklist li::after { width: 0.04rem; height: 0.04rem; border-radius: 0.04rem; background: #f7ab00; position: absolute; top: 50%; left: 0; margin-top: -0.02rem; content: ''; }
+.teams .t-cont .worklist li::after { width: 0.04rem; height: 0.04rem; border-radius: 0.04rem; background: #f7ab00; position: absolute; top: 0.15rem; left: 0; content: ''; }
 
 .teams .t-cont .work-ex { padding: 0.3rem 0 0; }
 
 .teams .t-cont .work-ex .stit { font-size: 0.22rem; line-height: 0.3rem; font-weight: bold; }
 
-.teams .t-cont .work-ex .snr { line-height: 0.26rem; font-size: 0.16rem; margin-top: 0.1rem; max-height: 1.3rem; overflow: hidden; }
+.teams .t-cont .work-ex .snr { line-height: 0.26rem; font-size: 0.16rem; margin-top: 0.05rem; max-height: 1.3rem; overflow: hidden; }
 
 .photo-swiper { width: 6.74rem; margin: 0 auto; }
 

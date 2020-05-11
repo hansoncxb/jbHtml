@@ -190,14 +190,14 @@ input:focus{outline:none}
             .name{float: left;padding-right: 0.15rem;font-size: 0.3rem;font-weight: bold;border-right: 0.02rem  solid #000;margin-right: 0.15rem;}
             .work{font-size: 0.2rem;}
         }
-        .worklist{padding:0.3rem 0 0; 
+        .worklist{padding:0.3rem 0 0; min-height: 1.35rem;
              li{color: #f7ab00;font-size: 0.2rem;line-height: 0.35rem;position: relative;padding-left: 0.1rem;
-                &::after{width: 0.04rem;height: 0.04rem;border-radius: 0.04rem;background: #f7ab00;position: absolute; top: 50%;left:0;margin-top: -0.02rem;content: ''}
+                &::after{width: 0.04rem;height: 0.04rem;border-radius: 0.04rem;background: #f7ab00;position: absolute; top: 0.15rem;left:0;content: ''}
             }
         }
         .work-ex{padding: 0.3rem 0 0;
             .stit{font-size: 0.22rem;line-height: 0.3rem;font-weight: bold;}
-            .snr{line-height: 0.26rem;font-size: 0.16rem;margin-top: 0.1rem;max-height: 1.3rem;overflow: hidden;}
+            .snr{line-height: 0.26rem;font-size: 0.16rem;margin-top: 0.05rem;max-height: 1.3rem;overflow: hidden;}
         }
         
     }
