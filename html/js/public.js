@@ -1,7 +1,7 @@
 var $page = $(".page");
 
 /////////教师模块执行切换
-if ($page.hasClass('index-page')) {
+if ($page.hasClass('index-page') || $page.hasClass('ui-page')) {
     tearchTab(1);
 } else if($page.hasClass('indesign-page')) {
     tearchTab(0);

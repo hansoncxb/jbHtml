@@ -290,9 +290,11 @@ input:focus { outline: none; }
 
 .photo-swiper .gallery-thumbs { width: 6.74rem; margin: 0.45rem auto 0; }
 
-.photo-swiper .gallery-thumbs .swiper-slide { background: #f6f6f6; padding: 0.03rem; }
+.photo-swiper .gallery-thumbs .swiper-slide { text-align: center; }
 
-.photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background: #fdd000; }
+.photo-swiper .gallery-thumbs .swiper-slide img { background: #f6f6f6; padding: 0.03rem; }
+
+.photo-swiper .gallery-thumbs .swiper-slide-thumb-active img { background: #fdd000; }
 
 .photo-swiper .gallery-top { width: 100%; margin: 0 auto; }
 
@@ -350,6 +352,14 @@ input:focus { outline: none; }
 .ui-page .outline { padding: 0.55rem 0 0.55rem; }
 
 .ui-page .curriculum { padding: 0.55rem 0 0.45rem; }
+
+.ui-page .teams .gallery-top .swiper-slide { background-image: linear-gradient(#b712c1, #8b4cd2); }
+
+.ui-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active img { background-image: linear-gradient(#b712c1, #8b4cd2); }
+
+.ui-page .teams .worklist li { color: #7836ff; }
+
+.ui-page .teams .worklist li::after { background: #7836ff; }
 
 /*****课程大纲*****/
 .outline { padding: 0.45rem 0 0.45rem; }
@@ -422,7 +432,7 @@ input:focus { outline: none; }
 
 .eshop-page .teams .gallery-top .swiper-slide { background-image: linear-gradient(#6dd3fd, #783aff); }
 
-.eshop-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background-image: linear-gradient(#6dd3fd, #783aff); }
+.eshop-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active img { background-image: linear-gradient(#6dd3fd, #783aff); }
 
 .eshop-page .teams .worklist li { color: #7836ff; }
 
@@ -460,7 +470,7 @@ input:focus { outline: none; }
 
 .clothing-page .teams .gallery-top .swiper-slide { background: #ff437f; }
 
-.clothing-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background: #ff437f; }
+.clothing-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active img { background: #ff437f; }
 
 .clothing-page .teams .worklist li { color: #ff437f; }
 
@@ -485,7 +495,7 @@ input:focus { outline: none; }
 
 .graphic-page .teams .gallery-top .swiper-slide { background: #ff9b00; }
 
-.graphic-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active { background: #ff9b00; }
+.graphic-page .teams .photo-swiper .gallery-thumbs .swiper-slide-thumb-active img { background: #ff9b00; }
 
 .graphic-page .teams .worklist li { color: #ff9b00; }
 
