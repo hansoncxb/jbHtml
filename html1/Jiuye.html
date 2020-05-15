@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta content="telephone=no email=no" name="format-detection">
+	<!-- 启用360浏览器的极速模式(webkit) -->
+	<meta name="renderer" content="webkit">
+	<!-- 避免IE使用兼容模式 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+	<meta name="HandheldFriendly" content="true">
+	<!-- 微软的老式浏览器 -->
+	<meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+	<meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+	<meta name="description" itemprop="description"
+		content="金榜教育专业设计培训学校,金榜设计培训课程:室内设计培训、服装设计培训，服装打版培训，美工培训、电商设计培训、ui设计培训、平面设计培训、广告设计培训，美术绘画培训，摄影培训，短视频拍摄剪辑培训等课程,学设计到金榜教育！,AI软件，CAD制作，插画设计，电商实战，平面实战等！" />
+	<meta name="keywords" content="UI设计培训，厦门UI设计，厦门UI设计培训机构，UI设计，UI设计培训机构，学习UI设计" />
+	<title>就业</title>
+	<link rel="stylesheet" href="lib/swiper/swiper.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		var w = window,
+			d = document.documentElement,
+			c;
+		function sesetfontsize() {
+			var deviceWidth = d.clientWidth;
+			deviceWidth > 750 && (deviceWidth = 750);
+			var a = (deviceWidth / 7.5).toFixed(2);
+			d.style.fontSize = a + "px";
+			var b = parseFloat(w.getComputedStyle(d, null).fontSize);
+			if (a != b) {
+				a = a * a / b;
+				d.style.fontSize = a + "px";
+			}
+		}
+		sesetfontsize();
+		w.addEventListener("resize", function () {
+			clearTimeout(c),
+				c = setTimeout(sesetfontsize, 300)
+		}, !1)
+		// 统计代码
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?7d4e9cc8ca3e9dbeb06e90974709c3af";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	<script language="javascript" src="http://pbt.zoosnet.net/JS/LsJS.aspx?siteid=PBT40191642&float=1&lng=cn"></script>
+</head>
+
+<body>
+	<div class="page job-page">
+		<div class="fix-head">
+			<!--公用头部-->
+			<header class="head">
+				<a href="index.html" class="btn logo">金榜设计教育</a>
+				<a href="tel:0592-5822788" class="btn tel">0592-5822788</a>
+			</header>
+			<!--公用导航-->
+			<nav class="menu">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="Kecheng.html">课程</a></li>
+				<li><a href="Shizi.html">师资</a></li>
+				<li><a href="Zuopin.html">作品</a></li>
+				<li class="on"><a href="javascript:;">就业</a></li>
+			</nav>
+		</div>
+		<!--banner-->
+		<div class="inbanner">
+			<img src="images/j-banner.jpg" alt="">
+		</div>
+		
+		<!--公用底部-->
+		<footer class="footer"><span>Copyright 2013 - 2020</span><span>厦门金榜设计职业培训学校.</span><span>All rights
+				reserved.</span><br>  
+			<span>闽ICP备14003808号-1</span><span>全国统一热线：0592-5822788</span></footer>
+		<!--固定底部-->
+		<ul class="fixed-menu">
+			<li><a href="tel:0592-5822788"><img src="images/fixed-ico1.png" alt="">我要试学</a></li>
+			<li><a href="javascript:;" onclick="business()"><img src="images/fixed-ico2.png" alt="">职业测试</a></li>
+			<li><a href="javascript:;" onclick="business()"><img src="images/fixed-ico3.png" alt="">在线咨询</a></li>
+		</ul>
+	</div>
+	<script src="lib/jquery.min.js"></script>
+	<script src="js/public.js"></script>
+</body>
+
+</html>
