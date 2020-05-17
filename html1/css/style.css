@@ -340,7 +340,7 @@ input:focus { outline: none; }
 
 .news-zx .box .swiper-container .swiper-slide p.classtime { font-size: 0.22rem; line-height: 0.3rem; }
 
-.news-zx .box .text { float: right; font-size: 0.3rem; margin: 0.4rem 0.4rem 0 0; }
+.news-zx .box .text { float: right; font-size: 0.3rem; margin: 0.3rem 0.4rem 0 0; background: url(../images/hot.gif) left center no-repeat; background-size: auto 0.39rem; padding-left: 0.4rem; height: 0.4rem; line-height: 0.4rem; }
 
 /************************************UI课程详情页*******************************************/
 .ui-page .get-class, .ui-page .online { background-image: linear-gradient(#b712c1, #8b4cd2); color: #fff; }
