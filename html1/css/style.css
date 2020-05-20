@@ -636,7 +636,7 @@ input:focus { outline: none; }
 
 .job-list .tab-head { background: #aeaeae; height: 0.55rem; line-height: 0.6rem; overflow: hidden; font-weight: bold; font-size: 0.28rem; color: #fff; }
 
-.job-list .swiper-container { height: 6rem; }
+.job-list .swiper-container { height: 24rem; }
 
 .job-list .swiper-container .swiper-slide { height: 0.6rem; overflow: hidden; }
 

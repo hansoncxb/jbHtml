@@ -1,0 +1,1889 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="gbk">
+		<meta name='keywords' content='金榜设计师特训机构,金榜设计教育,厦门金榜设计,室内设计培训,网店美工培训,服装设计培训,软装设计培训,平面设计培训,电商美工培训_手绘_新技能'/>
+             <meta name='description' content='【金榜设计师特训机构】（原金榜设计教育）_室内设计培训_网店美工培训_服装设计培训_软装设计培训_平面设计培训_电商美工培训_全屋家居定制培训及摄影培训'/>
+             <title>【金榜设计师特训机构】（原金榜设计教育）_室内设计培训_网店美工培训_服装设计培训_软装设计培训_平面设计培训_电商设计培训_手绘_新技能</title>
+		<link href="css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+		<script src="js/public.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var system ={
+				win : false,
+				mac : false,
+				xll : false,
+			ipad:false
+			};
+			var p = navigator.platform;
+			system.win = p.indexOf("Win") == 0;
+			system.mac = p.indexOf("Mac") == 0;
+			system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+			system.ipad = (navigator.userAgent.match(/iPad/i) != null)?true:false;
+		if(system.win||system.mac||system.xll||system.ipad){
+			}else{
+		window.location.href="http://m.jbsj.net/";
+			}
+		</script>
+<!--百度统计代码-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?422a34a2157b03a23cc0b57c4f9a232f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="headWrap">
+				<div class="head">
+					<a href="index.php" class="fl textIn logo">【金榜设计师特训机构】（原金榜设计教育）_室内设计培训_网店美工培训_服装设计培训_软装设计培训_平面设计培训_电商设计培训_手绘_新技能</a>
+					<div style="position:absolute;left:1250px;top:15px;"><a href="http://www.hy666.net.cn/" target="_blank" style="color:white">华缘装饰 | </a><a href="http://www.jbyx.net/" target="_blank" style="color:white">金榜影像</a></div>
+					<div class="menu fr">
+						<ul>
+							<li class="i1 on">
+								<a href="index.php" class="a">????</a><span class="line"></span></li>
+														<li class="i2">
+								<a href="article.php?m=2&c=0" class="a">课程</a><span class="line"></span>
+								<div class="secondUl transition">
+																																												<a href="article_detal.php?id=92&c=1&m=2">									室内空间设计特训班</a>																																																					<a href="article_detal.php?id=93&c=2&m=2">
+																		电商视觉设计特训班</a>																																																					<a href="article_detal.php?id=94&c=3&m=2">									服装设计特训班</a>																																																					<a href="article_detal.php?id=95&c=4&m=2">									平面创意设计特训班</a>																																																					<a href="article_detal.php?id=204&c=2&m=2">									高级PS修图特效班</a>																																																																																																																																																																																																																																																<a href="article_detal.php?id=211&c=4&m=2">									成人美术专业班</a>																																																																																																																																																																																																																																																																																		<a href="article_detal.php?id=202&c=1&m=2">									室内软装设计</a>																																																										</div>
+							</li>
+														<li class="i3">
+								<a href="article.php?m=3&c=13" class="a">简介</a><span class="line"></span>
+								<div class="secondUl transition">
+																																																																																																																																																																																																					<a href="article.php?m=3&c=13">金榜简介</a>																																																					<a href="article.php?m=3&c=14">学校环境</a>																																																					<a href="article.php?m=3&c=15">师资团队</a>																																																					<a href="article.php?m=3&c=16">课程研发</a>																																																																																																																																																																																																																																																																																																																																																																												</div>
+							</li>
+														<li class="i4">
+								<a href="article.php?m=4&c=0" class="a">新闻</a><span class="line"></span>
+								<div class="secondUl transition">
+																																																																																																																																																																			<a href="article.php?m=4&c=10">金榜资讯</a>																																																																																																																																										<a href="article.php?m=4&c=17">交流讲座</a>																																																					<a href="article.php?m=4&c=18">学员活动</a>																																																					<a href="article.php?m=4&c=19">实践学习</a>																																																																																																																																																																																																																																																																																																																																						<a href="article.php?m=4&c=39">干货分享</a>																																									</div>
+							</li>
+														<li class="i5">
+								<a href="article.php?m=5&c=0" class="a">作品</a><span class="line"></span>
+								<div class="secondUl transition">
+																																																																																																																																																																																				<a href="article.php?m=5&c=11">室内学员作品</a>																																																																																																																																																																																													<a href="article.php?m=5&c=21">电商学员作品</a>																																																					<a href="article.php?m=5&c=22">服装学员作品</a>																																																					<a href="article.php?m=5&c=23">平面学员作品</a>																																																																																																																																																																																																																																																					</div>
+							</li>
+														<li class="i6">
+								<a href="article.php?m=13&c=0" class="a">就业</a><span class="line"></span>
+								<div class="secondUl transition">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	<a href="article.php?m=13&c=">毕业学员</a>
+																	<a href="article.php?m=14&c=">就业明星</a>
+																	<a href="article.php?m=15&c=">就业服务</a>
+																	<a href="article.php?m=16&c=">合作企业</a>
+																																</div>
+							</li>
+														<li class="i7">
+								<a href="article.php?m=7&c=0" class="a">联系</a><span class="line"></span>
+								<div class="secondUl transition">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">在线咨询</a>
+									<a href="article.php?m=12">申请试听</a>
+									<a href="article.php?m=10">周末免费学</a>
+									<a href="article.php?m=7">乘车路线</a>
+																</div>
+							</li>
+													</ul>
+					</div>
+				</div>
+			</div>
+			<div class="picBan">
+				<span class="prev"></span>
+				<span class="next"></span>
+				<ul class="pic">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			<li><a href="http://www.jbsj.net/"><img src="uploads/images/20200317152449_980.jpg" width="1920" height="550" /></a></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												<li><a href="http://www.jbsj.net/article_detal.php?id=94&c=3&m=2"><img src="uploads/images/20200313163453_530.jpg" width="1920" height="550" /></a></li>
+																																																																																																																																																																																																																		<li><a href="http://www.jbsj.net/article_detal.php?id=92&c=1&m=2"><img src="uploads/images/20200313163503_966.jpg" width="1920" height="550" /></a></li>
+																																																																																																																																																																																																																																																																				<li><a href="http://www.jbsj.net/article_detal.php?id=95&c=4&m=2"><img src="uploads/images/20200316142026_686.jpg" width="1920" height="550" /></a></li>
+																																																																																																																																												<li><a href="http://www.jbsj.net/article_detal.php?id=93&c=2&m=2"><img src="uploads/images/20200317094902_849.jpg" width="1920" height="550" /></a></li>
+																																																																						<li><a href="http://www.jbsj.net/"><img src="uploads/images/20200324151623_891.jpg" width="1920" height="550" /></a></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+				</ul>
+				<ul class="hd">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			<li class="transition"></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												<li class="transition"></li>
+																																																																																																																																																																																																																		<li class="transition"></li>
+																																																																																																																																																																																																																																																																				<li class="transition"></li>
+																																																																																																																																												<li class="transition"></li>
+																																																																						<li class="transition"></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+				</ul>
+			</div>
+			<div class="fourWrap">
+				<ul class="fourBox">
+					<li class="i1">
+						<a href="article.php?m=10" class="transition">周末免费学</a>
+					</li>
+					<li class="i2">
+						<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank" class="transition">开班时间</a>
+					</li>
+					<li class="i3">
+						<a href="article.php?m=12" class="transition">免费试听</a>
+					</li>
+					<li class="i4">
+						<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank" class="transition">申请助学金</a>
+					</li>
+				</ul>
+			</div>
+			<div class="w1100 classBox cf">
+				<div class="boxtit">
+					<span class="name ch">课程体系</span><br>
+					<span class="name en">Curriculum Structure</span>
+					<span class="sline"></span>
+				</div>
+				<p class="tac">金榜设计根据十几年的教学经验总结，不断深入了解各大企业的职位需求，独创研发出设计教育行业顶尖的课程体系！</p>
+				<div class="classMenu mt35">
+					<a href="article_detal.php?id=202&c=1&m=2">软装设计</a>
+					<a href="article_detal.php?id=204&c=2&m=2">修图特效</a>
+					<a href="article_detal.php?id=151&c=1&m=2">3D效果图</a>
+					<a href="article_detal.php?id=207&c=3&m=2">服装版型</a>
+					<a href="article.php?m=2" class="allMenu">所有课程</a>
+				</div>
+				<ul class="classList mt30">
+													<li class="i1">
+						<a href="article_detal.php?id=92&c=1&m=2">							<p class="img"><img src="uploads/images/20200413170116_579.jpg" width="249" height="236" class="transition" /></p>
+							<div class="bottom">
+								<p class="en">Interior Space Design</p>
+								<p class="tit">室内空间设计特训班</p>
+								<p class="ins">圆亿万学子高级室内设计师梦想！</p>
+								<a href="article_detal.php?id=92&c=1&m=2"><span class="moreDet">了解课程></span></a>
+							</div>
+						</a>
+					</li>
+																																																																	<li class="i2">
+						<a href="article_detal.php?id=93&c=2&m=2">							<p class="img"><img src="uploads/images/20200413165606_167.jpg" width="249" height="236" class="transition" /></p>
+							<div class="bottom">
+								<p class="en">Web Visual Design</p>
+								<p class="tit">电商视觉设计特训班</p>
+								<p class="ins">移动互联网时代的热门高薪职业！</p>
+								<a href="article_detal.php?id=93&c=2&m=2"><span class="moreDet">了解课程></span></a>
+							</div>
+						</a>
+					</li>
+																																																									<li class="i3">
+						<a href="article_detal.php?id=94&c=3&m=2">							<p class="img"><img src="uploads/images/20200413165632_973.jpg" width="249" height="236" class="transition" /></p>
+							<div class="bottom">
+								<p class="en">Fashion Design</p>
+								<p class="tit">服装设计特训班</p>
+								<p class="ins">做最时尚/高薪的服装设计师！</p>
+								<a href="article_detal.php?id=94&c=3&m=2"><span class="moreDet">了解课程></span></a>
+							</div>
+						</a>
+					</li>
+																																																																	<li class="i4">
+						<a href="article_detal.php?id=95&c=4&m=2">							<p class="img"><img src="uploads/images/20200413165658_452.jpg" width="249" height="236" class="transition" /></p>
+							<div class="bottom">
+								<p class="en">Graphic Design</p>
+								<p class="tit">平面创意设计特训班</p>
+								<p class="ins">独创的品牌设计课程体系！</p>
+								<a href="article_detal.php?id=95&c=4&m=2"><span class="moreDet">了解课程></span></a>
+							</div>
+						</a>
+					</li>
+																																																									<li class="i5">
+						<a href="article_detal.php?id=204&c=2&m=2">							<p class="img"><img src="uploads/images/" width="249" height="236" class="transition" /></p>
+							<div class="bottom">
+								<p class="en"></p>
+								<p class="tit">高级PS修图特效班</p>
+								<p class="ins"></p>
+								<a href="article_detal.php?id=204&c=2&m=2"><span class="moreDet">了解课程></span></a>
+							</div>
+						</a>
+					</li>
+																																	<li class="i20">
+						<a href="article_detal.php?id=211&c=4&m=2">							<p class="img"><img src="uploads/images/" width="249" height="236" class="transition" /></p>
+							<div class="bottom">
+								<p class="en"></p>
+								<p class="tit">成人美术专业班</p>
+								<p class="ins"></p>
+								<a href="article_detal.php?id=211&c=4&m=2"><span class="moreDet">了解课程></span></a>
+							</div>
+						</a>
+					</li>
+																									<li class="i37">
+													<p class="img"><img src="uploads/images/" width="249" height="236" class="transition" /></p>
+							<div class="bottom">
+								<p class="en"></p>
+								<p class="tit">室内软装设计</p>
+								<p class="ins"></p>
+								<span class="moreDet">了解课程></span></a>
+							</div>
+						</a>
+					</li>
+													
+				</ul>
+			</div>
+			<form action="leave.php" method="post">
+			<div class="w1100 freeClassBox mt50">
+				<p class="tit">免费试听课程</p>
+				<table border="0" cellspacing="0" cellpadding="0" width="100%">
+					<tr>
+						<th>你的姓名：</th>
+						<td><input type="text" name="username" id="" value="" class="input" /></td>
+					</tr>
+					<tr>
+						<th>手机号码：</th>
+						<td><input type="text" name="telphone" id="" value="" class="input" /></td>
+					</tr>
+					<tr>
+						<th>试听课程：</th>
+						<td>
+							<select name="class" class="diyselect sb">
+								<div class="opts" >
+									<option value="请选择你要试听的课程" selected="selected">请选择你要试听的课程</option>
+																		<option value="室内空间设计特训班">室内空间设计特训班</option>
+																		<option value="电商视觉设计特训班">电商视觉设计特训班</option>
+																		<option value="服装设计特训班">服装设计特训班</option>
+																		<option value="平面创意设计特训班">平面创意设计特训班</option>
+																		<option value="高级PS修图特效班">高级PS修图特效班</option>
+																		<option value="成人美术专业班">成人美术专业班</option>
+																		<option value="室内软装设计">室内软装设计</option>
+																		
+								</div>
+						</select>
+						</td>
+					</tr>
+					<tr>
+						<th></th>
+						<td>
+							<input type="submit" class="sumbit" value="确认提交>>">
+						</td>
+					</tr>
+				</table>
+			</div>
+			</form>
+			<div class="aboutBox cf mt35">
+				<div class="w1100 cf about">
+					<div class="aboutPic">
+						<div class="bd">
+							<ul class="pic">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														<li><img src="uploads/images/20190909120552_233.jpg" /></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																	<li><img src="uploads/images/20190909120101_244.jpg" /></li>
+																																																																																																																																																																																																																																																													<li><img src="uploads/images/20190909120248_329.jpg" /></li>
+																																																																																																																																																																																																																																																																																									<li><img src="uploads/images/20190909120300_823.jpg" /></li>
+																																																																																																																																																																																																																																																																																																																																			<li><img src="uploads/images/20190909120347_822.jpg" /></li>
+																													<li><img src="uploads/images/20170522190849_858.jpg" /></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+							</ul>
+						</div>
+
+						<div class="hd">
+							<ul>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														<li><img src="uploads/images/20190909120552_233.jpg" /></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																	<li><img src="uploads/images/20190909120101_244.jpg" /></li>
+																																																																																																																																																																																																																																																													<li><img src="uploads/images/20190909120248_329.jpg" /></li>
+																																																																																																																																																																																																																																																																																									<li><img src="uploads/images/20190909120300_823.jpg" /></li>
+																																																																																																																																																																																																																																																																																																																																			<li><img src="uploads/images/20190909120347_822.jpg" /></li>
+																													<li><img src="uploads/images/20170522190849_858.jpg" /></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									</ul>
+						</div>
+					</div>
+					<div class="aboutCont">
+						<p class="aboutTit">
+							<span class="ch">关于金榜</span><br>
+							<span class="en">About Jinbang</span>
+						</p>
+						<div class="aboutNr">
+							<p class="f16 mt5">金榜设计教育是厦门一家培养中高级设计人才的培训机构</p>
+							<p class="mt5 nr">金榜设计师教育机构是国家劳动和社会保障部批准成立的大型设计综合服务机构，主要业务范围：设计师特训、设计外包、企业人才服务。是中国设计师特训培养模式的倡导者，旗下拥有华缘设计工程有限公司，金榜影像，新锐电商设计公司，学员在特训期间接触到一线客户，通过实战磨练，客户沟通，谈单等公司式特训模式。</p>
+							<div class="mt15">
+								<a href="" class="aboutmore textIn">更多关于金榜</a>
+							</div>
+							<div class="aboutOther mt10">
+								<p class="f18">自2001年成立以来，所获得荣誉有：</p>
+								<ul class="otherList mt5">
+									<li>/厦门消费者最喜欢的教育培训机构</li>
+									<li>/被民政部评定为3A级社会组织</li>
+									<li>/中国室内装饰协会授予“职业技能考评先进单位”</li>
+									<li>/荣获中国高端培训市场学员十佳满意企业</li>
+									<li>/厦门教育培训风云榜“行业最受欢迎奖”</li>
+									<li>/“厦门行业最具影响力奖”</li>
+									<li>/“海西十佳职业培训机构”</li>
+									<li>/被誉为培训行业“口碑典范”等诸多殊荣</li>
+									<li>……</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w1100 tearchBox mt50">
+				<div class="boxtit">
+					<span class="name ch">金牌名师</span><br>
+					<span class="name en">Gold Teacher</span>
+					<span class="sline"></span>
+				</div>
+				<p class="tac">金榜师资团队兼任设计公司总监或首席设计师，既保障了真实的教学案例来源，又保证了学员特训充分贴近一线设计市场。</p>
+				<p class="tac f20">跟设计总监学设计，学最实战技术， 才能不走弯路！</p>
+				<div class="tearchPic">
+					<a href="javascript:void(0)" class="prev textIn"></a>
+					<a href="javascript:void(0)" class="next textIn"></a>
+					<div class="tearchMain">
+						<ul>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170623093934_321.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">陈衍球老师</p>
+										<p class="tearchTip">20年设计/教育/管理经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											金榜设计教育机构董事长<br>国家高级摄影师/设计师<br>中国摄影家协会会员>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																	<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170621171117_344.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">祁厚辰老师</p>
+										<p class="tearchTip">18年设计/教育/管理经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											金榜设计教育机构总经理<br>问鼎国际设计总监<br>中国设计协会会员>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																																																																																																																																																																																																											<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/05211927082.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">邱云铃老师</p>
+										<p class="tearchTip">10年室内设计经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											华缘装饰工程设计总监 <br>金榜室内空间设计教学总监<br> 国家高级设计师>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																																																																																																																																																																																																																																					<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170523112759_440.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">刘军华老师</p>
+										<p class="tearchTip">10年电商/平面设计经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											新锐品牌设计总监<br>金榜设计教育机构设计总监<br> 电商/平面教学高级讲师>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																																																																																																																																										<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170524102917_160.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">陈秀丽老师</p>
+										<p class="tearchTip">7年服装设计经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											金榜设计教育特训机构<br>服装教学项目总监<br>美术专业教学高级讲师>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																																																																																																																																										<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170524103236_804.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">梁树伟老师</p>
+										<p class="tearchTip">7年室内设计经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											华缘装饰工程首席设计师 <br>金榜室内设计专业高级讲师 <br>国家高级设计师>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																																																																																																																																																																																																																																																																																																																																																										<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170619184637_517.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">黄璐丽老师</p>
+										<p class="tearchTip">7年电商设计经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											新锐电商首席设计师<br>金榜设计教育特训机构<br> 电商专业特聘讲师>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																											<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170524144127_320.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">黄振峰老师</p>
+										<p class="tearchTip">9年室内设计经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											恩思装饰工程设计主管 <br>金榜室内设计专业特聘高级讲师  <br>国家高级设计师>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																					<li class="transition">
+								<a href="article.php?m=3&c=15">
+									<img src="uploads/images/20170524143245_958.jpg" width="266" height="366" class="transition" />
+									<div class="tearchCont">
+										<p class="tearchName">廖杨茹老师</p>
+										<p class="tearchTip">6年美术手绘经验</p>
+										<p class="line mt15"></p>
+										<div class="tearchIns">
+											美术专业特聘高级讲师<br>金榜设计教育特训机构<br>服装教学专业讲师>>>
+										</div>
+									</div>
+								</a>
+								
+							</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="w1100 newsBox mt50">
+				<div class="boxtit">
+					<span class="name ch">学校新闻</span><br>
+					<span class="name en">School News</span>
+					<span class="sline"></span>
+				</div>
+				<div class="hd mt35">
+																																				
+					<a href="#" onclick="return false">金榜资讯</a>
+				
+																																																								
+					<a href="#" onclick="return false">交流讲座</a>
+				
+																																																								
+					<a href="#" onclick="return false">学员活动</a>
+				
+																																								
+					<a href="#" onclick="return false">干货分享</a>
+				
+																																
+					<a href="#" onclick="return false">实践学习</a>
+				
+																																																																																					
+				</div>
+				<div class="bd">
+					<div class="bdwrap">
+																																																					<ul class="newsList cf">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													<li>
+							<a href="article_detal.php?id=1159&c=10&m=4">
+								<img src="uploads/images/20190403110529_209.jpg" width="" height="" />
+								<p class="sutit mt5">《你好，我的手绘》分享会</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-04-03</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																							<li>
+							<a href="article_detal.php?id=1198&c=10&m=4">
+								<img src="uploads/images/20191120160652_466.jpg" width="" height="" />
+								<p class="sutit mt5">又一期室内设计学员毕业啦</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-11-20</span>
+								</p>
+							</a>
+						</li>
+																																																																										<li>
+							<a href="article_detal.php?id=1214&c=10&m=4">
+								<img src="uploads/images/20200415105133_793.jpg" width="" height="" />
+								<p class="sutit mt5">金榜设计4月复课季，精美礼品送不停</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2020-04-15</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1215&c=10&m=4">
+								<img src="uploads/images/20200415111138_706.jpg" width="" height="" />
+								<p class="sutit mt5">金榜设计免费学习卡向载誉凯旋的医护人员致敬!</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2020-04-15</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																														<li>
+							<a href="article_detal.php?id=1107&c=10&m=4">
+								<img src="uploads/images/20170816163542_674.jpg" width="" height="" />
+								<p class="sutit mt5">文化衫改造  我有我的Style</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																												<li>
+							<a href="article_detal.php?id=1109&c=10&m=4">
+								<img src="uploads/images/20170826182050_359.jpg" width="" height="" />
+								<p class="sutit mt5">编织蕾丝梦，设计自己的婚纱故事</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																										<li>
+							<a href="article_detal.php?id=1118&c=10&m=4">
+								<img src="uploads/images/20171110144421_520.jpg" width="" height="" />
+								<p class="sutit mt5">2017冬季创业项目评审路演</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																											<li>
+							<a href="article_detal.php?id=1121&c=10&m=4">
+								<img src="uploads/images/20171116183302_832.jpg" width="" height="" />
+								<p class="sutit mt5">2017厦门国际时尚周SHOW给世界看</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																											<li>
+							<a href="article_detal.php?id=1130&c=10&m=4">
+								<img src="uploads/images/20180321184308_624.jpg" width="" height="" />
+								<p class="sutit mt5">2018JIHAN济晗婚纱“MEMOR SKY”系列一</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1131&c=10&m=4">
+								<img src="uploads/images/20180321184347_459.jpg" width="" height="" />
+								<p class="sutit mt5">2018JIHAN济晗婚纱“MEMOR SKY”系列二</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																												<li>
+							<a href="article_detal.php?id=1135&c=10&m=4">
+								<img src="uploads/images/20180605170843_969.jpg" width="" height="" />
+								<p class="sutit mt5">参观红星美凯龙全球家居生活广场</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1136&c=10&m=4">
+								<img src="uploads/images/20180605173523_120.jpg" width="" height="" />
+								<p class="sutit mt5">参观“瀚艺诚”订制家具工厂</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-22</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1139&c=10&m=4">
+								<img src="uploads/images/20180919114500_179.jpg" width="" height="" />
+								<p class="sutit mt5">还在回味的金秋狂欢趴······</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2018-09-20</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																	<li>
+							<a href="article_detal.php?id=849&c=10&m=4">
+								<img src="uploads/images/20170617111959_885.jpg" width="" height="" />
+								<p class="sutit mt5">中国十佳时装设计师端木文老师莅临我校指导</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-19</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																									<li>
+							<a href="article_detal.php?id=900&c=10&m=4">
+								<img src="uploads/images/20170617095654_301.jpg" width="" height="" />
+								<p class="sutit mt5">我们毕业啦！！！</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-19</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																															<li>
+							<a href="article_detal.php?id=890&c=10&m=4">
+								<img src="uploads/images/20170617100505_262.jpg" width="" height="" />
+								<p class="sutit mt5">直播：金榜设计教育户外拓展</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																		<li>
+							<a href="article_detal.php?id=881&c=10&m=4">
+								<img src="uploads/images/20170617101129_346.jpg" width="" height="" />
+								<p class="sutit mt5">导报专访：金榜设计教育领跑海西设计师培训</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																		<li>
+							<a href="article_detal.php?id=897&c=10&m=4">
+								<img src="uploads/images/20170617101515_312.jpg" width="" height="" />
+								<p class="sutit mt5">金榜教育受邀厦门各大高校实训周讲课之一</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=898&c=10&m=4">
+								<img src="uploads/images/20170617101738_248.jpg" width="" height="" />
+								<p class="sutit mt5">金榜教育受邀厦门各大高校实训周讲课之二</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	<li>
+							<a href="article_detal.php?id=787&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">中国室内设计的风格与流派</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2012/12/28 星期五 11:40:11</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=788&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">平面设计注意要点</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2012/12/29 星期六 16:00:47</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=789&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">2013，是否将成为中国高级定制元年？</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2012/12/30 星期日 16:57:02</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=790&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">现代包装容器期待创新设计</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2012/12/31 星期一 10:17:23</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=791&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">装修设计窗帘的技巧和方法</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/4 星期五 16:16:25</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=792&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">包装设计的构思</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/7 星期一 15:24:27</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=793&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">服饰设计颜色比例技巧</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/8 星期二 13:56:35</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=794&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">不可不知的十大居家风水</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/9 星期三 15:48:20</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=795&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">设计师与客户沟通技巧 </p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/10 星期四 14:45:31</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=796&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">平面广告执行技巧</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/11 星期五 17:30:50</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=797&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">蓝印花布在服装设计中用途</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/12 星期六 16:50:26</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=798&c=10&m=4">
+								<img src="uploads/images/20170614184729_706.jpg" width="" height="" />
+								<p class="sutit mt5">家居装饰装修中木工工艺与工序</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2013/1/14 星期一 16:20:40</span>
+								</p>
+							</a>
+						</li>
+																																																																																																
+					</ul>
+																																																																																																																																																																																																																																																																																																																																																																	
+																																																																																																																														<ul class="newsList cf">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							<li>
+							<a href="article_detal.php?id=1166&c=17&m=4">
+								<img src="uploads/images/20190514162007_329.jpg" width="" height="" />
+								<p class="sutit mt5">智能家居主题沙龙预告—《触摸未来》</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-05-21</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1167&c=17&m=4">
+								<img src="uploads/images/20190521150109_363.jpg" width="" height="" />
+								<p class="sutit mt5">《触摸未来》智能家居分享会</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-08-29</span>
+								</p>
+							</a>
+						</li>
+																																																																																																								<li>
+							<a href="article_detal.php?id=1175&c=17&m=4">
+								<img src="uploads/images/20190617151158_887.jpg" width="" height="" />
+								<p class="sutit mt5">懂礼仪，才能打动人心</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-06-17</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1176&c=17&m=4">
+								<img src="uploads/images/20190620161836_405.jpg" width="" height="" />
+								<p class="sutit mt5">优质沙龙第七期“移动端设计系统”</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-06-20</span>
+								</p>
+							</a>
+						</li>
+																																												<li>
+							<a href="article_detal.php?id=1179&c=17&m=4">
+								<img src="uploads/images/20190716103320_858.jpg" width="" height="" />
+								<p class="sutit mt5">【令人无法忽视的灯光设计】</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-08-29</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1180&c=17&m=4">
+								<img src="uploads/images/20190716160034_321.jpg" width="" height="" />
+								<p class="sutit mt5">【服装可以很“绣”气】</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-07-16</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1182&c=17&m=4">
+								<img src="uploads/images/20190829204009_255.jpg" width="" height="" />
+								<p class="sutit mt5">林弋格老师的设计私享会</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-08-29</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1183&c=17&m=4">
+								<img src="uploads/images/20190829204529_659.jpg" width="" height="" />
+								<p class="sutit mt5">探索人对空间的需求</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-08-29</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																									<li>
+							<a href="article_detal.php?id=1038&c=17&m=4">
+								<img src="uploads/images/20170616114310_541.jpg" width="" height="" />
+								<p class="sutit mt5">金榜服装设计梦想沙龙帮你实现梦想！围观学员处女作~~~</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																							<li>
+							<a href="article_detal.php?id=1113&c=17&m=4">
+								<img src="uploads/images/20170920182350_162.jpg" width="" height="" />
+								<p class="sutit mt5">亲临国际设计周，与大师面对面</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																												<li>
+							<a href="article_detal.php?id=1116&c=17&m=4">
+								<img src="uploads/images/20171103110252_768.jpg" width="" height="" />
+								<p class="sutit mt5">“榜样在身边”创业沙龙活动方案</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																			<li>
+							<a href="article_detal.php?id=1036&c=17&m=4">
+								<img src="uploads/images/20170616114537_528.jpg" width="" height="" />
+								<p class="sutit mt5">2016.05.28金榜“永远的设计人”系列沙龙-设计人该做什么！</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																										<li>
+							<a href="article_detal.php?id=1019&c=17&m=4">
+								<img src="uploads/images/20170617093637_301.jpg" width="" height="" />
+								<p class="sutit mt5">2015新力量讲座第一弹！3月14日玖维空间设计总监林致远“盒子里的人”，名额有限，赶快预约吧~</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																														<li>
+							<a href="article_detal.php?id=1020&c=17&m=4">
+								<img src="uploads/images/20170617094319_435.jpg" width="" height="" />
+								<p class="sutit mt5">金榜“新力量”系列讲座之室内设计讲座现场花絮~~~</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																						<li>
+							<a href="article_detal.php?id=878&c=17&m=4">
+								<img src="uploads/images/20170617105914_117.jpg" width="" height="" />
+								<p class="sutit mt5">我校成功举办阳宅风水讲座</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																		<li>
+							<a href="article_detal.php?id=857&c=17&m=4">
+								<img src="uploads/images/20170617112448_868.jpg" width="" height="" />
+								<p class="sutit mt5">我校大型软装设计讲座圆满结束</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																					
+					</ul>
+																																																																																																																																																																																																																																																																																									
+																																																																																																																																																																																																						<ul class="newsList cf">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								<li>
+							<a href="article_detal.php?id=1165&c=18&m=4">
+								<img src="uploads/images/20190514111721_915.jpg" width="" height="" />
+								<p class="sutit mt5">学员参观学习盛古装饰在建工地</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-05-21</span>
+								</p>
+							</a>
+						</li>
+																																																																										<li>
+							<a href="article_detal.php?id=1169&c=18&m=4">
+								<img src="uploads/images/20190521162302_740.jpg" width="" height="" />
+								<p class="sutit mt5">参观凌云玉石展</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-05-21</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1170&c=18&m=4">
+								<img src="uploads/images/20190528110659_417.jpg" width="" height="" />
+								<p class="sutit mt5">以梦为马 不负韶华—海玲同学的逐梦之路</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-05-28</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																				<li>
+							<a href="article_detal.php?id=1184&c=18&m=4">
+								<img src="uploads/images/20190829205556_621.jpg" width="" height="" />
+								<p class="sutit mt5">又一期室内设计学员毕业啦</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-08-29</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																							<li>
+							<a href="article_detal.php?id=1106&c=18&m=4">
+								<img src="uploads/images/20170810181305_863.jpg" width="" height="" />
+								<p class="sutit mt5">一场速度与激情的东方传奇体验</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																									<li>
+							<a href="article_detal.php?id=1114&c=18&m=4">
+								<img src="uploads/images/20170930110502_493.jpg" width="" height="" />
+								<p class="sutit mt5">2017金榜设计17周年中秋狂欢趴活动现场！</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																	<li>
+							<a href="article_detal.php?id=1039&c=18&m=4">
+								<img src="uploads/images/20170616114108_460.jpg" width="" height="" />
+								<p class="sutit mt5">2017对待春天的最好的方式就是去户外嗨起来~~</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																											<li>
+							<a href="article_detal.php?id=1104&c=18&m=4">
+								<img src="uploads/images/20170703154959_840.jpg" width="" height="" />
+								<p class="sutit mt5">逃离都市，跟我们美女帅哥设计师一起去九溪庐漂流吧！</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1105&c=18&m=4">
+								<img src="uploads/images/20170710163441_921.jpg" width="" height="" />
+								<p class="sutit mt5">爱让我们在一起--金榜设计师的公益活动</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																														<li>
+							<a href="article_detal.php?id=1037&c=18&m=4">
+								<img src="uploads/images/20170616113419_463.jpg" width="" height="" />
+								<p class="sutit mt5">2016年金榜中秋博饼狂欢趴活动现场！新老学员一起嗨！</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1040&c=18&m=4">
+								<img src="uploads/images/20170616113954_198.jpg" width="" height="" />
+								<p class="sutit mt5">骑行吧，少年！一群志同道合的人已经在设计梦想的路上！</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																															<li>
+							<a href="article_detal.php?id=1035&c=18&m=4">
+								<img src="uploads/images/20170616113447_431.jpg" width="" height="" />
+								<p class="sutit mt5">金榜学员闹元宵！2016.02.22汤圆X灯谜活动.</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																				<li>
+							<a href="article_detal.php?id=1033&c=18&m=4">
+								<img src="uploads/images/20170616115038_132.jpg" width="" height="" />
+								<p class="sutit mt5">狂欢吧！少年~09月24日金榜15周年狂欢夜!</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																	<li>
+							<a href="article_detal.php?id=1032&c=18&m=4">
+								<img src="uploads/images/20170616115631_560.jpg" width="" height="" />
+								<p class="sutit mt5">2015金榜设计特训中秋学员博饼总动员！活动现场^^</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																																																																								<li>
+							<a href="article_detal.php?id=1021&c=18&m=4">
+								<img src="uploads/images/20170617093303_576.jpg" width="" height="" />
+								<p class="sutit mt5">热爱设计,拥有梦想！7月学员曾厝垵海滩活动。</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																								<li>
+							<a href="article_detal.php?id=895&c=18&m=4">
+								<img src="uploads/images/20170617095856_960.jpg" width="" height="" />
+								<p class="sutit mt5">2014.05.24我校师生海韵台沙滩之旅花絮</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=904&c=18&m=4">
+								<img src="uploads/images/20170617094725_698.jpg" width="" height="" />
+								<p class="sutit mt5">服装设计专业 同安造水野炊芭乐采摘+古龙文化园激情游</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+					</ul>
+																																																																																																																																																																																																																	
+																																																																																																																																																																																																																																																																																										<ul class="newsList cf">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						<li>
+							<a href="article_detal.php?id=1034&c=19&m=4">
+								<img src="uploads/images/20170616113614_791.jpg" width="" height="" />
+								<p class="sutit mt5">金榜电商设计学员双11“顶级电商品牌实习周”圆满结束！</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																																																																								<li>
+							<a href="article_detal.php?id=1108&c=19&m=4">
+								<img src="uploads/images/20170826182110_895.jpg" width="" height="" />
+								<p class="sutit mt5">编织蕾丝梦，设计自己的婚纱故事</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																																								<li>
+							<a href="article_detal.php?id=1119&c=19&m=4">
+								<img src="uploads/images/20171114182858_210.jpg" width="" height="" />
+								<p class="sutit mt5">室内专业中铁·元湾现场学习</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																													<li>
+							<a href="article_detal.php?id=1120&c=19&m=4">
+								<img src="uploads/images/20171115145843_319.jpg" width="" height="" />
+								<p class="sutit mt5"> 金榜设计带你揭秘，室内设计师量房时到底在干嘛？</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																																								<li>
+							<a href="article_detal.php?id=1133&c=19&m=4">
+								<img src="uploads/images/20180605162840_894.jpg" width="" height="" />
+								<p class="sutit mt5">参观赫曼德德国进口橱柜</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2019-03-25</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																													<li>
+							<a href="article_detal.php?id=1030&c=19&m=4">
+								<img src="uploads/images/20170616113653_406.jpg" width="" height="" />
+								<p class="sutit mt5">永不止步！金榜电商设计学员安踏参观交流记。</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-16</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																											<li>
+							<a href="article_detal.php?id=893&c=19&m=4">
+								<img src="uploads/images/20170617100106_550.jpg" width="" height="" />
+								<p class="sutit mt5">服装班学员参访时尚石狮时装周</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																													<li>
+							<a href="article_detal.php?id=892&c=19&m=4">
+								<img src="uploads/images/20170617102045_778.jpg" width="" height="" />
+								<p class="sutit mt5">室内05期特训学员参观建材市场</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																				<li>
+							<a href="article_detal.php?id=880&c=19&m=4">
+								<img src="uploads/images/20170617104004_309.jpg" width="" height="" />
+								<p class="sutit mt5">服装班学员参访2014服装流行趋势发布会</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																		<li>
+							<a href="article_detal.php?id=868&c=19&m=4">
+								<img src="uploads/images/20170617110734_391.jpg" width="" height="" />
+								<p class="sutit mt5">软装培训之灯饰照明课程现场</p>
+								<p class="cf mt5">
+									<span class="more fr"></span>
+									<span class="fl date">发表于2017-06-17</span>
+								</p>
+							</a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+					</ul>
+																																																																																																																													
+						
+					
+					</div>
+					
+				</div>
+			</div>
+			<div class="otherBox mt50">
+				<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank" class="online">在线咨询报名>></a>
+				<a href="article.php?m=10" class="free">周末免费学>></a>
+			</div>
+			<div class="wrap1 cf">
+				<div class="w1100 cf studentWork">
+					<div class="boxtit">
+						<span class="name ch">学员作品</span><br>
+						<span class="name en">Student Works</span>
+						<span class="sline"></span>
+					</div>
+					<p class="tac">学员通过全程真实案例疯狂特训，熟练掌握设计技能，最终能独立完成符合企业要求的毕业设计。<br>让每位学员真正掌握过硬的设计技能是我们的教学宗旨。
+					</p>
+					<ul class="workList cf mt45">
+																																																								<li>
+							<a href="article.php?m=5&c=11"><img src="uploads/images/20170522192345_852.jpg" width="263" height="263" class="transition"></a>
+						</li>
+																																																																							<li>
+							<a href="article.php?m=5&c=21"><img src="uploads/images/20170531150119_817.jpg" width="263" height="263" class="transition"></a>
+						</li>
+																																																																							<li>
+							<a href="article.php?m=5&c=22"><img src="uploads/images/20170531150127_462.jpg" width="263" height="263" class="transition"></a>
+						</li>
+																																																																																	<li>
+							<a href="article.php?m=5&c=23"><img src="uploads/images/20170531150134_857.jpg" width="263" height="263" class="transition"></a>
+						</li>
+																																																																																																
+					</ul>
+				</div>
+				<div class="studentBox w1100 mt50 cf">
+					<div class="boxtit">
+						<span class="name ch">就业学员</span><br>
+						<span class="name en">Employment Trainees</span>
+						<span class="sline"></span>
+					</div>
+					<div class="studentScroll mt30">
+						<span class="prev"></span>
+						<span class="next"></span>
+						<div class="pic">
+							<ul>
+																						<li class="odd">
+																	<img src="uploads/images/20170523171445_550.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">蔡斌</p>
+										<p>凡城装饰设计有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170523171555_270.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">曾沐鑫</p>
+										<p>东竹装饰设计有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605101208_167.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">林玲</p>
+										<p>兆全装饰设计有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170523170713_376.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">陈友志</p>
+										<p>创办劳马装装饰设计</p>
+										<p class="name">30000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605100055_627.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">陈志伟</p>
+										<p>华缘装饰设计有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170523171641_731.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">陈嘉彬</p>
+										<p>路易鑫装饰工程设计</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605101057_941.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">李秋红</p>
+										<p>厦门佰辉装饰设计公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605101438_972.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">王而灵</p>
+										<p>厦门有家装饰设计</p>
+										<p class="name">15000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170623142926_512.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">黄哲淦</p>
+										<p>AND潮牌服饰</p>
+										<p class="name">20000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605100838_227.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">李柏元</p>
+										<p>创办尚品友佳装公司</p>
+										<p class="name">20000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605101550_453.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">吴丽</p>
+										<p>寅浩装饰设计公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605101907_938.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">严少孝</p>
+										<p>圣帕特瑞克（香港）设计公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605101639_765.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">吴志杰</p>
+										<p>威尔斯装饰设计公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605101326_821.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">林仁泉</p>
+										<p>尚品友佳装饰设计</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605104513_461.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">李明焕</p>
+										<p>VIISHOW潮牌男装电商部</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170623143756_356.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">詹君莲</p>
+										<p>素手服饰有限公司</p>
+										<p class="name">15000元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605104648_592.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">林宏彬</p>
+										<p>厦门依思有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605100318_734.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">曾贵阳</p>
+										<p>诠释装饰设计有限公司</p>
+										<p class="name">15000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170623115310_321.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">廖静茹</p>
+										<p>创办怡静园工作室</p>
+										<p class="name">15000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605100114_468.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">陈学森</p>
+										<p>有间装饰设计有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605103246_974.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">陈盛斌</p>
+										<p>斐乐体育有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170623143140_215.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">臧凑玉</p>
+										<p>秀佳蒙服饰</p>
+										<p class="name">20000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605103429_109.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">洪俊</p>
+										<p>七匹狼集团有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605104805_714.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">罗毅</p>
+										<p>福建柒牌集团有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605100552_977.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">池仁涛</p>
+										<p>哈德森室内设计公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605100738_565.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">郭毅森</p>
+										<p>创办福世景装饰设计公司</p>
+										<p class="name">20000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605105020_302.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">张梅仙</p>
+										<p>淘沙网络科技有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170606161801_596.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">任俊文</p>
+										<p>特步体育有限公司</p>
+										<p class="name">7500+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605105151_615.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">朱灿斌</p>
+										<p>三六一度有限公司</p>
+										<p class="name">8500+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170608194311_168.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">章燕红</p>
+										<p>吉外科技有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170606162250_259.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">黄伟斌</p>
+										<p>多普达厦门运营中心</p>
+										<p class="name">8500元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170623114349_721.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">刘艳艳</p>
+										<p>厦门给丽工贸有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170608193954_413.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">江源</p>
+										<p>创天世纪有限公司</p>
+										<p class="name">7500元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170623115212_406.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">龚龙</p>
+										<p>七匹狼实业有限公司</p>
+										<p class="name">7500元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605101748_635.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">伍光辉</p>
+										<p>泰发装饰设计有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605103735_995.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">李冠培</p>
+										<p>厦门稻壳电子商务有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170605104917_241.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">王海</p>
+										<p>厦门稻壳电子商务有限公司</p>
+										<p class="name">8000元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605100444_820.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">陈浩</p>
+										<p>创办格林装饰有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170606161904_814.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">陈秀强</p>
+										<p>匹克运动有限公司</p>
+										<p class="name">7500元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170605100944_487.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">李闯</p>
+										<p>龙发装饰设计有限公司</p>
+										<p class="name">10000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170621193851_904.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">吴雅馨</p>
+										<p>无穷大科技有限公司</p>
+										<p class="name">7000+元</p>
+									</div>
+								</li>
+						
+																						<li class="even">
+																	<img src="uploads/images/20170623114634_667.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">覃如华</p>
+										<p>厦门宝姿服饰有限公司</p>
+										<p class="name">8000+元</p>
+									</div>
+								</li>
+						
+																						<li class="odd">
+																	<img src="uploads/images/20170623143631_600.jpg" width="184" height="218"/>
+									<div class="textFun">
+										<p class="name">林珊</p>
+										<p>欣贺股份有限公司</p>
+										<p class="name">6500元</p>
+									</div>
+								</li>
+						
+															
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+				<div class="w1100 cf partbox mt50">
+					<div class="boxtit">
+						<span class="name ch">合作伙伴</span><br>
+						<span class="name en">Co-operative Enterprises</span>
+						<span class="sline"></span>
+					</div>
+					<p class="tac">厦门70%的设计公司更愿意选择金榜学员，特训期间学员的实战全部来自于公司的真实案例，<br> 无实战，不设计，保证了学员特训充分贴近一线设计市场。
+					</p>
+					<ul class="partList cf mt25">
+																																																																																																						<li>
+							<a href="article.php?m=16"><img src="uploads/images/050215581351.jpg"></a>
+						</li>
+																																	<li>
+							<a href="article.php?m=16"><img src="uploads/images/050215581396.jpg"></a>
+						</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524150926_284.jpg"></a>
+						</li>
+																																																																																																																																																																																																																						<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524151738_801.jpg"></a>
+						</li>
+																																																																																																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524151832_539.jpg"></a>
+						</li>
+																																																																																																																																															<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152439_685.jpg"></a>
+						</li>
+																																																																																																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152512_581.jpg"></a>
+						</li>
+																																																																																			<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152528_720.jpg"></a>
+						</li>
+																																																																																			<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171036_140.jpg"></a>
+						</li>
+																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152554_473.jpg"></a>
+						</li>
+																																																															<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152631_869.jpg"></a>
+						</li>
+																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152642_867.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152650_207.jpg"></a>
+						</li>
+																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152658_512.jpg"></a>
+						</li>
+																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152707_100.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152715_830.jpg"></a>
+						</li>
+																																																															<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152723_378.jpg"></a>
+						</li>
+																																	<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152732_683.jpg"></a>
+						</li>
+																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152743_563.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170524152752_947.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171116_520.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171127_952.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171142_892.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171151_325.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171204_386.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171213_209.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171223_313.jpg"></a>
+						</li>
+																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171231_206.jpg"></a>
+						</li>
+																																																					<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171242_301.jpg"></a>
+						</li>
+																																											<li>
+							<a href="article.php?m=16"><img src="uploads/images/20170526171253_344.jpg"></a>
+						</li>
+																																																																																																																																																																																																																																																																																
+					</ul>
+				</div>
+			</div>
+			
+			<div class="footWrap cf">
+				<div class="cf" style="padding-top: 50px;"></div>
+				<form action="leave.php" method="post">
+				<div class="w1100 footContact">
+					<p class="fl"><a href="article.php?m=7"><img src="images/contactMap.jpg"/></a></p>
+					<div class="contactForm">
+						<p class="tit">留下你的问题？<br>我们竭诚为你服务</p>
+						<div class="cf">
+							<input type="text" name="username" id="" value="" class="input" placeholder="*你的姓名：" />
+							<input type="text" name="telphone" id="" value="" class="input" placeholder="*手机号码：" />
+							<textarea name="class" rows="" cols="" class="text" placeholder="*留言内容：
+ 设计专业问题？担心学不会？
+ 没有基础？设计师前景怎样？"></textarea>
+ 							<input type="submit" class="sumbit" value="确认提交>>">
+						</div>
+					</div>
+				</div>
+				</form>
+				<script language=javascript>
+var LiveAutoInvite0='您好，来自%IP%的朋友';
+var LiveAutoInvite1='来自首页的对话';
+var LiveAutoInvite2=' 网站商务通 主要功能：<br>1、主动邀请<br>2、即时沟通<br>3、查看即时访问动态<br>4、访问轨迹跟踪<br>5、内部对话<br>6、不安装任何插件也实现双向文件传输<br><br><b>如果您有任何问题请接受此邀请以开始即时沟通</b>';
+</script>
+<script language="javascript" src="http://pbt.zoosnet.net/JS/LsJS.aspx?siteid=PBT40191642&float=1&lng=cn"></script>
+<!-- WPA Button End -->
+<div class="w1100 footCont cf">
+					<div class="moreInse fr">
+						<img src="uploads/images/20170524155653_618.jpg" width="108" height="108"/>
+						<p>[ 更多设计资讯请关注 ] </p>
+					</div>
+					<div class="question fl">
+						<p class="footTit">常见问题>></p>
+						<div class="footNr cf">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">学费是多少，最近有没有优惠活动？>></a>
+																									<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">学完能就业吗，我怕学了找不到工作？>></a>
+																									<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">哪些课程适合我？可以申请试学？>></a>
+																									<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">上课时间是怎么安排的？>></a>
+																									<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">能分期付款学习？申请条件是什么？>></a>
+																			
+						</div>
+					</div>
+					<div class="hotClass fl">
+						<p class="footTit">热门课程>></p>
+						<div class="footNr cf">
+																			<a href="article_detal.php?id=92&c=1&m=2">
+														室内空间设计特训班>></a>
+																																																																																																									<a href="article_detal.php?id=93&c=2&m=2">
+														电商视觉设计特训班>></a>
+																																																																																												<a href="article_detal.php?id=94&c=3&m=2">
+														服装设计特训班>></a>
+																																																																																																									<a href="article_detal.php?id=95&c=4&m=2">
+														平面创意设计特训班>></a>
+																																																																																												<a href="article_detal.php?id=204&c=2&m=2">
+														高级PS修图特效班>></a>
+																																																					<a href="article_detal.php?id=211&c=4&m=2">
+														成人美术专业班>></a>
+																																															室内软装设计>></a>
+																					
+						</div>
+					</div>
+					<div class="service fl">
+						<p class="footTit">服务专区>></p>
+						<div class="footNr cf">
+							<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">在线咨询报名>></a>
+							<a href="article.php?m=10">周末免费学>></a>
+							<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">了解开班时间>></a>
+							<a href="article.php?m=12">免费试听课程>></a>
+							<a href="http://pbt.zoosnet.net/LR/Chatpre.aspx?id=PBT40191642&lng=cn" target="_blank">申请助学金>></a>
+						</div>
+					</div>
+					<div class="conatct fl">
+						<p class="footTit">联系我们>></p>
+						<div class="footNr cf">
+							特训地址：厦门市思明区嘉禾路110号阜康大厦4楼<br>
+临近公交站：莲花路口东站  /  莲花南路站<br>
+咨询热线：<span>0592-5822788 / 5139388</span>
+						</div>
+						<div class="allLine mt10">全国统一热线：0592-5822788 </div>
+					</div>
+				</div>
+				<div class="foot tac w1100 mt50">
+					厦门金榜设计职业培训学校 版权所有
+					<ul class="footRight">
+						<li class="i1">
+							<span></span>
+							<div class="ewm"><img src="images/ewm.jpg" width="100" /></div>
+						</li>
+						<li>/</li>
+						<li class="i2">
+							<span></span>
+							<div class="ewm"><img src="images/qqdb.jpg" width="100" /></div>
+						</li>
+						<li>/</li>
+						<li class="i3">
+							<span></span>
+							<div class="ewm"><img src="uploads/images/20170524155653_618.jpg" width="100" /></div>
+						</li>
+					</ul>
+				</div>			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.inputbox.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+
+</html>
